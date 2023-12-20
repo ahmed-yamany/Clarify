@@ -10,7 +10,16 @@
 		EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235E0D2B33794900A74271 /* ClarityApp.swift */; };
 		EE235E102B33794900A74271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235E0F2B33794900A74271 /* ContentView.swift */; };
 		EE235E122B33794A00A74271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE235E112B33794A00A74271 /* Assets.xcassets */; };
-		EE235E152B33794A00A74271 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE235E142B33794A00A74271 /* Preview Assets.xcassets */; };
+		EE235E1C2B337A4300A74271 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE235E1B2B337A4300A74271 /* Colors.xcassets */; };
+		EE235E222B3386D900A74271 /* Font+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235E212B3386D900A74271 /* Font+Style.swift */; };
+		EE235E262B3386F400A74271 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EE235E242B3386F400A74271 /* .swiftlint.yml */; };
+		EE235E272B3386F400A74271 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EE235E252B3386F400A74271 /* swiftgen.yml */; };
+		EE235E2A2B33871800A74271 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE235E2C2B33871800A74271 /* Localizable.strings */; };
+		EE235E322B3387AE00A74271 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235E312B3387AE00A74271 /* Strings+Generated.swift */; };
+		EE235E362B33890F00A74271 /* SFPRODISPLAY-MEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EE235E352B33890F00A74271 /* SFPRODISPLAY-MEDIUM.OTF */; };
+		EE235E382B33892400A74271 /* SFPRODISPLAY-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EE235E372B33892400A74271 /* SFPRODISPLAY-REGULAR.OTF */; };
+		EE235E3C2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EE235E3B2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF */; };
+		EE235E3D2B338AAD00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EE235E392B33895A00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +27,18 @@
 		EE235E0D2B33794900A74271 /* ClarityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClarityApp.swift; sourceTree = "<group>"; };
 		EE235E0F2B33794900A74271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE235E112B33794A00A74271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE235E142B33794A00A74271 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE235E1B2B337A4300A74271 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		EE235E212B3386D900A74271 /* Font+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Style.swift"; sourceTree = "<group>"; };
+		EE235E242B3386F400A74271 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		EE235E252B3386F400A74271 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		EE235E2B2B33871800A74271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE235E2D2B33871900A74271 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE235E312B3387AE00A74271 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		EE235E352B33890F00A74271 /* SFPRODISPLAY-MEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFPRODISPLAY-MEDIUM.OTF"; sourceTree = "<group>"; };
+		EE235E372B33892400A74271 /* SFPRODISPLAY-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFPRODISPLAY-REGULAR.OTF"; sourceTree = "<group>"; };
+		EE235E392B33895A00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFPRODISPLAY-SEMIBOLD.OTF"; sourceTree = "<group>"; };
+		EE235E3A2B33898400A74271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE235E3B2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFPRODISPLAY-BOLD.OTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +55,11 @@
 		EE235E012B33794900A74271 = {
 			isa = PBXGroup;
 			children = (
+				EE235E242B3386F400A74271 /* .swiftlint.yml */,
+				EE235E252B3386F400A74271 /* swiftgen.yml */,
 				EE235E0C2B33794900A74271 /* Clarity */,
+				EE235E1D2B33863E00A74271 /* Utilities */,
+				EE235E1E2B33864400A74271 /* Resources */,
 				EE235E0B2B33794900A74271 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,20 +75,74 @@
 		EE235E0C2B33794900A74271 /* Clarity */ = {
 			isa = PBXGroup;
 			children = (
+				EE235E3E2B338CCB00A74271 /* Scenes */,
 				EE235E0D2B33794900A74271 /* ClarityApp.swift */,
-				EE235E0F2B33794900A74271 /* ContentView.swift */,
-				EE235E112B33794A00A74271 /* Assets.xcassets */,
-				EE235E132B33794A00A74271 /* Preview Content */,
+				EE235E3A2B33898400A74271 /* Info.plist */,
 			);
 			path = Clarity;
 			sourceTree = "<group>";
 		};
-		EE235E132B33794A00A74271 /* Preview Content */ = {
+		EE235E1D2B33863E00A74271 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				EE235E142B33794A00A74271 /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EE235E1E2B33864400A74271 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE235E302B33878B00A74271 /* Generated */,
+				EE235E232B3386E400A74271 /* Localization */,
+				EE235E202B3386C400A74271 /* Fonts */,
+				EE235E1F2B33865F00A74271 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE235E1F2B33865F00A74271 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE235E112B33794A00A74271 /* Assets.xcassets */,
+				EE235E1B2B337A4300A74271 /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EE235E202B3386C400A74271 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE235E212B3386D900A74271 /* Font+Style.swift */,
+				EE235E3B2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF */,
+				EE235E392B33895A00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF */,
+				EE235E372B33892400A74271 /* SFPRODISPLAY-REGULAR.OTF */,
+				EE235E352B33890F00A74271 /* SFPRODISPLAY-MEDIUM.OTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EE235E232B3386E400A74271 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				EE235E2C2B33871800A74271 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		EE235E302B33878B00A74271 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				EE235E312B3387AE00A74271 /* Strings+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		EE235E3E2B338CCB00A74271 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE235E0F2B33794900A74271 /* ContentView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +152,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE235E182B33794A00A74271 /* Build configuration list for PBXNativeTarget "Clarity" */;
 			buildPhases = (
+				EE235E2E2B33873900A74271 /* swiftgen */,
+				EE235E2F2B33875600A74271 /* swiftlint */,
 				EE235E062B33794900A74271 /* Sources */,
 				EE235E072B33794900A74271 /* Frameworks */,
 				EE235E082B33794900A74271 /* Resources */,
@@ -109,6 +189,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = EE235E012B33794900A74271;
 			productRefGroup = EE235E0B2B33794900A74271 /* Products */;
@@ -125,24 +206,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE235E152B33794A00A74271 /* Preview Assets.xcassets in Resources */,
+				EE235E3D2B338AAD00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF in Resources */,
+				EE235E382B33892400A74271 /* SFPRODISPLAY-REGULAR.OTF in Resources */,
+				EE235E362B33890F00A74271 /* SFPRODISPLAY-MEDIUM.OTF in Resources */,
+				EE235E3C2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF in Resources */,
+				EE235E262B3386F400A74271 /* .swiftlint.yml in Resources */,
+				EE235E2A2B33871800A74271 /* Localizable.strings in Resources */,
+				EE235E272B3386F400A74271 /* swiftgen.yml in Resources */,
+				EE235E1C2B337A4300A74271 /* Colors.xcassets in Resources */,
 				EE235E122B33794A00A74271 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EE235E2E2B33873900A74271 /* swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftgen >/dev/null; then\n  swiftgen\nelse\n  echo \"warning: get not installed, download from https://github.com/realm/SwiftLint\"\nfi \n";
+		};
+		EE235E2F2B33875600A74271 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE235E062B33794900A74271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE235E222B3386D900A74271 /* Font+Style.swift in Sources */,
 				EE235E102B33794900A74271 /* ContentView.swift in Sources */,
+				EE235E322B3387AE00A74271 /* Strings+Generated.swift in Sources */,
 				EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE235E2C2B33871800A74271 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE235E2B2B33871800A74271 /* en */,
+				EE235E2D2B33871900A74271 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EE235E162B33794A00A74271 /* Debug */ = {
@@ -182,7 +325,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +388,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -271,15 +414,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Clarity/Preview Content\"";
 				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clarity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,15 +444,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Clarity/Preview Content\"";
 				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clarity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
