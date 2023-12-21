@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ClarityApp: App {
+    @Environment(\.colorScheme) var systemColorSceme
+    @ObservedObject var appViewModel = AppViewModel.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PromoView()
+//                .environment(\.colorScheme, appViewModel.colorSceme)
         }
     }
 }

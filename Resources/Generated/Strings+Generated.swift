@@ -10,12 +10,18 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
-  internal enum Me {
-    /// Localizable.strings
-    ///   Clarity
-    /// 
-    ///   Created by Ahmed Yamany on 20/12/2023.
-    internal static let name = L10n.tr("Localizable", "me.name", fallback: "Ahmed")
+  internal enum Intro {
+    internal enum Promo {
+      internal enum Button {
+        /// Localizable.strings
+        ///   Clarity
+        /// 
+        ///   Created by Ahmed Yamany on 20/12/2023.
+        internal static let next = L10n.tr("Localizable", "intro.promo.button.next", fallback: "Next")
+        /// Sign in
+        internal static let signin = L10n.tr("Localizable", "intro.promo.button.signin", fallback: "Sign in")
+      }
+    }
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
