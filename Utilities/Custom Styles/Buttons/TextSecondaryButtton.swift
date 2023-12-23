@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TextSecondaryButtton: ButtonStyle {
+    @Environment(\.isEnabled) private var isEnabled: Bool
+
     func makeBody(configuration: Configuration) -> some View {
         configuration
             .label
@@ -16,8 +18,18 @@ struct TextSecondaryButtton: ButtonStyle {
                     .frame(height: 2)
                     .padding(.bottom, -2)
             }
-            .foregroundStyle(configuration.isPressed ? Color.clPrimary.opacity(0.4) : .clTextSecondary)
+            .foregroundStyle(getBackgroundColor(configuration: configuration))
             .font(Font.Large(weight: .bold))
+    }
+    
+    // Determines the background color of the button based on its configuration
+    private func getBackgroundColor(configuration: Configuration) -> Color {
+        if configuration.isPressed {
+            return Color.clPrimary.opacity(0.4)
+        } else if !isEnabled {
+            return Color.clInputLabel
+        }
+        return Color.clTextSecondary
     }
 }
 

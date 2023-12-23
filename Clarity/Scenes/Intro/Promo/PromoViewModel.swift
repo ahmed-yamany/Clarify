@@ -10,14 +10,16 @@ import SwiftUI
 class PromoViewModel: ObservableObject {
     @Published var selectedPromoIndex: Int = 0
     @Published var promos: [Promo] = []
-
+    
     func getPromos() async throws -> [Promo] {
         Promo.samples
     }
     
-    func promoMove() {
+    func promoMove(onEndPerform completion: () -> Void) {
         if selectedPromoIndex < promos.count - 1 {
             selectedPromoIndex += 1
+        } else {
+            completion()
         }
     }
 }

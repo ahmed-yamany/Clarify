@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
+import Combine
 
 @main
 struct ClarityApp: App {
-    @Environment(\.colorScheme) var systemColorSceme
-    @ObservedObject var appViewModel = AppViewModel.shared
+    @StateObject private var appRouter = AppRouter.shared
     
     var body: some Scene {
         WindowGroup {
-            PromoView()
-//                .environment(\.colorScheme, appViewModel.colorSceme)
+            AnyView(appRouter.rootView)
         }
     }
 }

@@ -12,9 +12,10 @@ extension View {
     @ViewBuilder
     func applyPrimaryDesign() -> some View {
         self
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .background(Color.clBackground)
             .foregroundStyle(Color.clTextPrimary)
             .font(Font.medium(weight: .regular))
+            .tint(Color.clTextPrimary)
     }
 }

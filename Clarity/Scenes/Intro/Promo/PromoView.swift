@@ -8,22 +8,22 @@
 import SwiftUI
 
 struct PromoView: View {
-    @StateObject private var viewModel = PromoViewModel()    
-    private let spacing: CGFloat = 28
+    @ObservedObject var navigation: IntroNavigation
+    @StateObject private var viewModel: PromoViewModel = .init()
     
+    private let spacing: CGFloat = 24
     var body: some View {
         VStack(spacing: spacing) {
             VStack(spacing: 8) {
                 tabView
                 Spacer()
-               pagination
+                pagination
             }
             .frame(height: CGFloat.screenSize.height * 0.75)
             
             nextButton
+                
             signinButton
-            
-            Spacer()
         }
         .animation(.linear, value: viewModel.selectedPromoIndex)
         .padding(.horizontal, CGFloat.cl.contentPadding)
@@ -32,6 +32,7 @@ struct PromoView: View {
             do {
                 viewModel.promos = try await viewModel.getPromos()
             } catch {
+                print(error.localizedDescription)
             }
         }
     }
@@ -45,6 +46,7 @@ struct PromoView: View {
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .padding(.horizontal, -CGFloat.cl.contentPadding)
+        .padding(.top, 8)
 
     }
     
@@ -73,19 +75,20 @@ struct PromoView: View {
     
     private var nextButton: some View {
         Button(L10n.Intro.Promo.Button.next) {
-            viewModel.promoMove()
+            viewModel.promoMove {
+                navigation.navigate(to: .terms)
+            }
         }
         .buttonStyle(.primaryButton())
     }
     
     private var signinButton: some View {
         Button(L10n.Intro.Promo.Button.signin) {
-            
         }
         .buttonStyle(.textSecondary)
     }
 }
 
 #Preview {
-    PromoView()
+    IntroView()
 }

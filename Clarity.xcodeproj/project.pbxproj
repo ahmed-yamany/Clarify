@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,15 @@
 		EE235E3C2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EE235E3B2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF */; };
 		EE235E3D2B338AAD00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EE235E392B33895A00A74271 /* SFPRODISPLAY-SEMIBOLD.OTF */; };
 		EE235E412B33A2DA00A74271 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235E402B33A2DA00A74271 /* PrimaryButton.swift */; };
+		EE25F37B2B3713720090DA3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F37A2B3713720090DA3B /* User.swift */; };
+		EE25F37E2B3715C60090DA3B /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F37D2B3715C60090DA3B /* AppRouter.swift */; };
+		EE25F3832B371EBE0090DA3B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3812B371EBE0090DA3B /* HomeView.swift */; };
+		EE25F3842B371EBE0090DA3B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3822B371EBE0090DA3B /* HomeViewModel.swift */; };
+		EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3862B372A5E0090DA3B /* UserStoringManager.swift */; };
+		EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3892B3739880090DA3B /* IntroView.swift */; };
+		EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38B2B373A660090DA3B /* SplashView.swift */; };
+		EE25F38F2B3741D00090DA3B /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38E2B3741D00090DA3B /* TermsView.swift */; };
+		EE25F3922B3750DE0090DA3B /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = EE25F3912B3750DE0090DA3B /* Extensions */; };
 		EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B166E2B34443B00C0A306 /* AppViewModel.swift */; };
 		EE2B16732B34497600C0A306 /* View+applyPrimaryDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16722B34497600C0A306 /* View+applyPrimaryDesign.swift */; };
 		EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16772B344BDD00C0A306 /* PromoView.swift */; };
@@ -60,6 +69,14 @@
 		EE235E3A2B33898400A74271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EE235E3B2B338A6F00A74271 /* SFPRODISPLAY-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFPRODISPLAY-BOLD.OTF"; sourceTree = "<group>"; };
 		EE235E402B33A2DA00A74271 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		EE25F37A2B3713720090DA3B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE25F37D2B3715C60090DA3B /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		EE25F3812B371EBE0090DA3B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE25F3822B371EBE0090DA3B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EE25F3862B372A5E0090DA3B /* UserStoringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStoringManager.swift; sourceTree = "<group>"; };
+		EE25F3892B3739880090DA3B /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		EE25F38B2B373A660090DA3B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EE25F38E2B3741D00090DA3B /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
 		EE2B166E2B34443B00C0A306 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		EE2B16722B34497600C0A306 /* View+applyPrimaryDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+applyPrimaryDesign.swift"; sourceTree = "<group>"; };
 		EE2B16772B344BDD00C0A306 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
@@ -74,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE25F3922B3750DE0090DA3B /* Extensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +148,8 @@
 		EE235E0C2B33794900A74271 /* Clarity */ = {
 			isa = PBXGroup;
 			children = (
+				EE25F3852B372A4C0090DA3B /* Managers */,
+				EE25F3792B3713690090DA3B /* Model */,
 				EE235E3E2B338CCB00A74271 /* Scenes */,
 				EE235E0D2B33794900A74271 /* ClarityApp.swift */,
 				EE2B166E2B34443B00C0A306 /* AppViewModel.swift */,
@@ -201,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				EE2B16752B344AB700C0A306 /* Intro */,
+				EE25F37F2B371E9B0090DA3B /* Main */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -212,6 +233,40 @@
 				EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EE25F3792B3713690090DA3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE25F37A2B3713720090DA3B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE25F37F2B371E9B0090DA3B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE25F3812B371EBE0090DA3B /* HomeView.swift */,
+				EE25F3822B371EBE0090DA3B /* HomeViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EE25F3852B372A4C0090DA3B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EE25F37D2B3715C60090DA3B /* AppRouter.swift */,
+				EE25F3862B372A5E0090DA3B /* UserStoringManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EE25F38D2B3741730090DA3B /* Terma */ = {
+			isa = PBXGroup;
+			children = (
+				EE25F38E2B3741D00090DA3B /* TermsView.swift */,
+			);
+			path = Terma;
 			sourceTree = "<group>";
 		};
 		EE2B16702B34494600C0A306 /* Custom Styles */ = {
@@ -245,8 +300,10 @@
 		EE2B16752B344AB700C0A306 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
+				EE25F3892B3739880090DA3B /* IntroView.swift */,
 				EE2B16762B344ABE00C0A306 /* Splash */,
 				EE2B16742B344AAA00C0A306 /* Promo */,
+				EE25F38D2B3741730090DA3B /* Terma */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -254,6 +311,7 @@
 		EE2B16762B344ABE00C0A306 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				EE25F38B2B373A660090DA3B /* SplashView.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -293,6 +351,9 @@
 			dependencies = (
 			);
 			name = Clarity;
+			packageProductDependencies = (
+				EE25F3912B3750DE0090DA3B /* Extensions */,
+			);
 			productName = Clarity;
 			productReference = EE235E0A2B33794900A74271 /* Clarity.app */;
 			productType = "com.apple.product-type.application";
@@ -322,6 +383,9 @@
 				ar,
 			);
 			mainGroup = EE235E012B33794900A74271;
+			packageReferences = (
+				EE25F3902B3750DE0090DA3B /* XCLocalSwiftPackageReference "Packages/Extensions" */,
+			);
 			productRefGroup = EE235E0B2B33794900A74271 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -397,20 +461,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */,
+				EE25F3842B371EBE0090DA3B /* HomeViewModel.swift in Sources */,
+				EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */,
+				EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */,
 				EE235E222B3386D900A74271 /* Font+Style.swift in Sources */,
 				EE2B167C2B344BF600C0A306 /* Promo.swift in Sources */,
 				EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */,
+				EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */,
 				EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */,
 				EE2B167F2B34500300C0A306 /* CGFloat+Spacing.swift in Sources */,
 				EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */,
 				EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */,
+				EE25F37B2B3713720090DA3B /* User.swift in Sources */,
 				EE235E412B33A2DA00A74271 /* PrimaryButton.swift in Sources */,
 				EE066BF32B348F310089AD20 /* PaginationStyle.swift in Sources */,
+				EE25F37E2B3715C60090DA3B /* AppRouter.swift in Sources */,
 				EE235E322B3387AE00A74271 /* Strings+Generated.swift in Sources */,
 				EE066BF82B348F9C0089AD20 /* CirclePaginationStyle.swift in Sources */,
 				EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */,
+				EE25F3832B371EBE0090DA3B /* HomeView.swift in Sources */,
 				EE066BF02B348E350089AD20 /* PaginationView.swift in Sources */,
 				EE066BEE2B3471460089AD20 /* PromoAsyncImage.swift in Sources */,
+				EE25F38F2B3741D00090DA3B /* TermsView.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
 				EE2B16732B34497600C0A306 /* View+applyPrimaryDesign.swift in Sources */,
 				EE066BF62B348F810089AD20 /* CapsulePaginationStyle.swift in Sources */,
@@ -633,6 +705,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		EE25F3902B3750DE0090DA3B /* XCLocalSwiftPackageReference "Packages/Extensions" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Extensions;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE25F3912B3750DE0090DA3B /* Extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extensions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE235E022B33794900A74271 /* Project object */;
 }
