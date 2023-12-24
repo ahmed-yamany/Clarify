@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,13 +34,18 @@
 		EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3862B372A5E0090DA3B /* UserStoringManager.swift */; };
 		EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3892B3739880090DA3B /* IntroView.swift */; };
 		EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38B2B373A660090DA3B /* SplashView.swift */; };
-		EE25F38F2B3741D00090DA3B /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38E2B3741D00090DA3B /* TermsView.swift */; };
+		EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38E2B3741D00090DA3B /* TermsConditionsView.swift */; };
 		EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B166E2B34443B00C0A306 /* AppViewModel.swift */; };
-		EE2B16732B34497600C0A306 /* View+applyPrimaryDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16722B34497600C0A306 /* View+applyPrimaryDesign.swift */; };
+		EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16722B34497600C0A306 /* +applyPrimaryDesign.swift */; };
 		EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16772B344BDD00C0A306 /* PromoView.swift */; };
 		EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16782B344BDD00C0A306 /* PromoViewModel.swift */; };
 		EE2B167C2B344BF600C0A306 /* Promo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B167B2B344BF600C0A306 /* Promo.swift */; };
 		EE2B167F2B34500300C0A306 /* CGFloat+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B167E2B34500300C0A306 /* CGFloat+Spacing.swift */; };
+		EE32FA8A2B385862009FFB8E /* +navigationItemsBackButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA892B385862009FFB8E /* +navigationItemsBackButtonTitle.swift */; };
+		EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA8B2B385B49009FFB8E /* SecondaryButton.swift */; };
+		EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */; };
+		EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */; };
+		EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */; };
 		EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,13 +80,18 @@
 		EE25F3862B372A5E0090DA3B /* UserStoringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStoringManager.swift; sourceTree = "<group>"; };
 		EE25F3892B3739880090DA3B /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		EE25F38B2B373A660090DA3B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		EE25F38E2B3741D00090DA3B /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		EE25F38E2B3741D00090DA3B /* TermsConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsView.swift; sourceTree = "<group>"; };
 		EE2B166E2B34443B00C0A306 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
-		EE2B16722B34497600C0A306 /* View+applyPrimaryDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+applyPrimaryDesign.swift"; sourceTree = "<group>"; };
+		EE2B16722B34497600C0A306 /* +applyPrimaryDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+applyPrimaryDesign.swift"; sourceTree = "<group>"; };
 		EE2B16772B344BDD00C0A306 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
 		EE2B16782B344BDD00C0A306 /* PromoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewModel.swift; sourceTree = "<group>"; };
 		EE2B167B2B344BF600C0A306 /* Promo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promo.swift; sourceTree = "<group>"; };
 		EE2B167E2B34500300C0A306 /* CGFloat+Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Spacing.swift"; sourceTree = "<group>"; };
+		EE32FA892B385862009FFB8E /* +navigationItemsBackButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+navigationItemsBackButtonTitle.swift"; sourceTree = "<group>"; };
+		EE32FA8B2B385B49009FFB8E /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryToggleStyle.swift; sourceTree = "<group>"; };
+		EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsViewModel.swift; sourceTree = "<group>"; };
+		EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrimaryButton.swift; sourceTree = "<group>"; };
 		EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSecondaryButtton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,6 +240,8 @@
 			children = (
 				EE235E402B33A2DA00A74271 /* PrimaryButton.swift */,
 				EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */,
+				EE32FA8B2B385B49009FFB8E /* SecondaryButton.swift */,
+				EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -260,17 +272,19 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		EE25F38D2B3741730090DA3B /* Terma */ = {
+		EE25F38D2B3741730090DA3B /* TermsConditions */ = {
 			isa = PBXGroup;
 			children = (
-				EE25F38E2B3741D00090DA3B /* TermsView.swift */,
+				EE25F38E2B3741D00090DA3B /* TermsConditionsView.swift */,
+				EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */,
 			);
-			path = Terma;
+			path = TermsConditions;
 			sourceTree = "<group>";
 		};
 		EE2B16702B34494600C0A306 /* Custom Styles */ = {
 			isa = PBXGroup;
 			children = (
+				EE32FA8D2B3862D5009FFB8E /* Toggle */,
 				EEC706D42B34977E005915A4 /* AsyncImage */,
 				EE066BF12B348F0A0089AD20 /* PaginationView */,
 				EE235E3F2B33A2B100A74271 /* Buttons */,
@@ -281,7 +295,8 @@
 		EE2B16712B34494E00C0A306 /* Custom Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				EE2B16722B34497600C0A306 /* View+applyPrimaryDesign.swift */,
+				EE2B16722B34497600C0A306 /* +applyPrimaryDesign.swift */,
+				EE32FA892B385862009FFB8E /* +navigationItemsBackButtonTitle.swift */,
 			);
 			path = "Custom Modifiers";
 			sourceTree = "<group>";
@@ -302,7 +317,7 @@
 				EE25F3892B3739880090DA3B /* IntroView.swift */,
 				EE2B16762B344ABE00C0A306 /* Splash */,
 				EE2B16742B344AAA00C0A306 /* Promo */,
-				EE25F38D2B3741730090DA3B /* Terma */,
+				EE25F38D2B3741730090DA3B /* TermsConditions */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -328,6 +343,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE32FA8D2B3862D5009FFB8E /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */,
+			);
+			path = Toggle;
 			sourceTree = "<group>";
 		};
 		EEC706D42B34977E005915A4 /* AsyncImage */ = {
@@ -470,11 +493,13 @@
 				EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */,
 				EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */,
 				EE235E222B3386D900A74271 /* Font+Style.swift in Sources */,
+				EE32FA8A2B385862009FFB8E /* +navigationItemsBackButtonTitle.swift in Sources */,
 				EE2B167C2B344BF600C0A306 /* Promo.swift in Sources */,
 				EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */,
 				EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */,
 				EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */,
 				EE2B167F2B34500300C0A306 /* CGFloat+Spacing.swift in Sources */,
+				EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */,
 				EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */,
 				EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */,
 				EE25F37B2B3713720090DA3B /* User.swift in Sources */,
@@ -484,12 +509,15 @@
 				EE235E322B3387AE00A74271 /* Strings+Generated.swift in Sources */,
 				EE066BF82B348F9C0089AD20 /* CirclePaginationStyle.swift in Sources */,
 				EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */,
+				EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */,
 				EE25F3832B371EBE0090DA3B /* HomeView.swift in Sources */,
 				EE066BF02B348E350089AD20 /* PaginationView.swift in Sources */,
 				EE066BEE2B3471460089AD20 /* PromoAsyncImage.swift in Sources */,
-				EE25F38F2B3741D00090DA3B /* TermsView.swift in Sources */,
+				EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */,
+				EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */,
+				EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
-				EE2B16732B34497600C0A306 /* View+applyPrimaryDesign.swift in Sources */,
+				EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */,
 				EE066BF62B348F810089AD20 /* CapsulePaginationStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

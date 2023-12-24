@@ -22,6 +22,32 @@ internal enum L10n {
         internal static let signin = L10n.tr("Localizable", "intro.promo.button.signin", fallback: "Sign in")
       }
     }
+    internal enum Terms {
+      /// Let’s get you started!
+      internal static let title = L10n.tr("Localizable", "intro.terms.title", fallback: "Let’s get you started!")
+      internal enum Button {
+        /// Accept all
+        internal static let acceptAll = L10n.tr("Localizable", "intro.terms.button.acceptAll", fallback: "Accept all")
+        /// Privacy Policy
+        internal static let privacy = L10n.tr("Localizable", "intro.terms.button.privacy", fallback: "Privacy Policy")
+        /// Next
+        internal static let signup = L10n.tr("Localizable", "intro.terms.button.signup", fallback: "Next")
+        /// Terms of Use.
+        internal static let terms = L10n.tr("Localizable", "intro.terms.button.terms", fallback: "Terms of Use.")
+      }
+      internal enum Terms {
+        /// Let’s get you started!
+        internal static let policy = L10n.tr("Localizable", "intro.terms.terms.policy", fallback: "Let’s get you started!")
+      }
+      internal enum Toggle {
+        /// I agree to processing of my personal health data for providing me Bellabeat app functions. See more in
+        internal static let healthData = L10n.tr("Localizable", "intro.terms.toggle.healthData", fallback: "I agree to processing of my personal health data for providing me Bellabeat app functions. See more in")
+        /// I agree that  may use my personal data to send me product or service offerings via app or email.*
+        internal static let markting = L10n.tr("Localizable", "intro.terms.toggle.markting", fallback: "I agree that  may use my personal data to send me product or service offerings via app or email.*")
+        /// I agree to 
+        internal static let terms = L10n.tr("Localizable", "intro.terms.toggle.terms", fallback: "I agree to ")
+      }
+    }
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

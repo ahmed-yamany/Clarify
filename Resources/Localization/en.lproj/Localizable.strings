@@ -8,3 +8,15 @@
 
 "intro.promo.button.next" = "Next";
 "intro.promo.button.signin" = "Sign in";
+//
+"intro.terms.title" = "Let’s get you started!";
+"intro.terms.terms.policy" = "Let’s get you started!";
+"intro.terms.toggle.terms" = "I agree to ";
+"intro.terms.toggle.healthData" = "I agree to processing of my personal health data for providing me Bellabeat app functions. See more in";
+"intro.terms.toggle.markting" = "I agree that  may use my personal data to send me product or service offerings via app or email.*";
+"intro.terms.button.privacy" = "Privacy Policy";
+"intro.terms.button.terms" = "Terms of Use.";
+"intro.terms.button.acceptAll" = "Accept all";
+"intro.terms.button.signup" = "Next";
+
+

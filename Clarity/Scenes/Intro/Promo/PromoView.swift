@@ -76,7 +76,7 @@ struct PromoView: View {
     private var nextButton: some View {
         Button(L10n.Intro.Promo.Button.next) {
             viewModel.promoMove {
-                navigation.navigate(to: .terms)
+                navigation.navigate(to: .termsConditions)
             }
         }
         .buttonStyle(.primaryButton())

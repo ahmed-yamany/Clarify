@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum IntroNavigationEnum: Hashable {
-    case terms
+    case termsConditions, termsOfUse, privacyPolicy
 }
 
 final class IntroNavigation: ObservableObject {
@@ -26,7 +26,7 @@ struct IntroView: View {
     var body: some View {
         SplashView()
             .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                     showNavigationView = true
                 }
             }
@@ -36,6 +36,7 @@ struct IntroView: View {
     private var navigationView: some View {
         NavigationStack(path: $navigation.routes) {
             PromoView(navigation: navigation)
+                .navigationItemsBackButtonTitle("")
                 .navigationDestination(for: IntroNavigationEnum.self) { route in
                     view(for: route)
                 }
@@ -46,8 +47,16 @@ struct IntroView: View {
     @ViewBuilder
     private func view(for route: IntroNavigationEnum) -> some View {
         switch route {
-            case .terms:
-                TermsView(navigation: navigation)
+            case .termsConditions:
+                TermsConditionsView(navigation: navigation)
+            case .termsOfUse:
+                Text("")
+                    .applyPrimaryDesign()
+                    .navigationTitle(L10n.Intro.Terms.Button.terms)
+            case .privacyPolicy:
+                Text("")
+                    .applyPrimaryDesign()
+                    .navigationTitle(L10n.Intro.Terms.Button.privacy)
         }
     }
 }
