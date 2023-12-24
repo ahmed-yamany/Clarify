@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,7 +35,6 @@
 		EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F3892B3739880090DA3B /* IntroView.swift */; };
 		EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38B2B373A660090DA3B /* SplashView.swift */; };
 		EE25F38F2B3741D00090DA3B /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25F38E2B3741D00090DA3B /* TermsView.swift */; };
-		EE25F3922B3750DE0090DA3B /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = EE25F3912B3750DE0090DA3B /* Extensions */; };
 		EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B166E2B34443B00C0A306 /* AppViewModel.swift */; };
 		EE2B16732B34497600C0A306 /* View+applyPrimaryDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16722B34497600C0A306 /* View+applyPrimaryDesign.swift */; };
 		EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B16772B344BDD00C0A306 /* PromoView.swift */; };
@@ -91,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE25F3922B3750DE0090DA3B /* Extensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +132,7 @@
 				EE235E1D2B33863E00A74271 /* Utilities */,
 				EE235E1E2B33864400A74271 /* Resources */,
 				EE235E0B2B33794900A74271 /* Products */,
+				EE32FA832B38506B009FFB8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -324,6 +323,13 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		EE32FA832B38506B009FFB8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEC706D42B34977E005915A4 /* AsyncImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,7 +358,6 @@
 			);
 			name = Clarity;
 			packageProductDependencies = (
-				EE25F3912B3750DE0090DA3B /* Extensions */,
 			);
 			productName = Clarity;
 			productReference = EE235E0A2B33794900A74271 /* Clarity.app */;
@@ -384,7 +389,7 @@
 			);
 			mainGroup = EE235E012B33794900A74271;
 			packageReferences = (
-				EE25F3902B3750DE0090DA3B /* XCLocalSwiftPackageReference "Packages/Extensions" */,
+				EE32FA862B3850D0009FFB8E /* XCLocalSwiftPackageReference "Packages/Extensions" */,
 			);
 			productRefGroup = EE235E0B2B33794900A74271 /* Products */;
 			projectDirPath = "";
@@ -709,18 +714,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		EE25F3902B3750DE0090DA3B /* XCLocalSwiftPackageReference "Packages/Extensions" */ = {
+		EE32FA862B3850D0009FFB8E /* XCLocalSwiftPackageReference "Packages/Extensions" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Extensions;
 		};
 /* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		EE25F3912B3750DE0090DA3B /* Extensions */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Extensions;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE235E022B33794900A74271 /* Project object */;
 }

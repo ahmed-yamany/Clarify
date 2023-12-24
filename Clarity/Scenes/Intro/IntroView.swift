@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Extensions
 
 enum IntroNavigationEnum: Hashable {
     case terms
@@ -37,7 +36,6 @@ struct IntroView: View {
     private var navigationView: some View {
         NavigationStack(path: $navigation.routes) {
             PromoView(navigation: navigation)
-                .navigationItemsBackButtonTitle("")
                 .navigationDestination(for: IntroNavigationEnum.self) { route in
                     view(for: route)
                 }
