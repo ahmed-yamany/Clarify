@@ -66,7 +66,8 @@ private struct NavigationItemsBackButtonTitleChanger: UIViewRepresentable {
             self.parent = parent
         }
         
-        func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        func navigationController(_ navigationController: UINavigationController,
+                                  willShow viewController: UIViewController, animated: Bool) {
             viewController.navigationItem.backButtonTitle = parent.title
         }
     }
