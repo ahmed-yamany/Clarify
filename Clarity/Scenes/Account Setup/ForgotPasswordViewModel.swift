@@ -8,4 +8,5 @@
 import SwiftUI
 
 class ForgotPasswordViewModel: ObservableObject {
+    @Published var text = "ForgotPasswordViewModel"
 }

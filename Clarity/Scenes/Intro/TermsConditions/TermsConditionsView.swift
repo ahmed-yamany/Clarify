@@ -9,7 +9,7 @@ import SwiftUI
 
 // View for displaying terms and conditions in the introductory section
 struct TermsConditionsView: View {
-    @ObservedObject var navigation: IntroNavigation
+    @EnvironmentObject var navigation: Navigation
     
     @StateObject private var viewModel = TermsConditionsViewModel()
     @State private var accountSetupIsPresended = false // State to control the presentation of the account setup view
@@ -24,7 +24,7 @@ struct TermsConditionsView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .applyPrimaryDesign()
         .fullScreenCover(isPresented: $accountSetupIsPresended) {
-            AccountSetupView()
+            AccountSetupView(termsAndConditionViewModel: viewModel)
         }
     }
     

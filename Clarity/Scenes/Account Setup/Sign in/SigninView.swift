@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct SigninView: View {
-    @EnvironmentObject var navigation: AccountSetupNavigation
+    @EnvironmentObject var navigation: Navigation
+    @EnvironmentObject var viewModel: SigninViewModel
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -17,5 +18,6 @@ struct SigninView: View {
 
 #Preview {
     SigninView()
-        .environmentObject(AccountSetupNavigation())
+        .environmentObject(Navigation())
+        .environmentObject(SigninViewModel())
 }

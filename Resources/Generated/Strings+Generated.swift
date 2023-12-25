@@ -21,18 +21,26 @@ internal enum L10n {
       /// Sign UP
       internal static let signup = L10n.tr("Localizable", "accountSetup.button.signup", fallback: "Sign UP")
     }
+    internal enum Image {
+      /// Your reset begins here. 
+      internal static let text = L10n.tr("Localizable", "accountSetup.image.text", fallback: "Your reset begins here. ")
+    }
     internal enum Text {
       /// Not a member?
       internal static let notmember = L10n.tr("Localizable", "accountSetup.text.notmember", fallback: "Not a member?")
     }
   }
+  internal enum App {
+    /// Localizable.strings
+    ///   Clarity
+    /// 
+    ///   Created by Ahmed Yamany on 20/12/2023.
+    internal static let name = L10n.tr("Localizable", "app.name", fallback: "Clarity")
+  }
   internal enum Intro {
     internal enum Promo {
       internal enum Button {
-        /// Localizable.strings
-        ///   Clarity
-        /// 
-        ///   Created by Ahmed Yamany on 20/12/2023.
+        /// Next
         internal static let next = L10n.tr("Localizable", "intro.promo.button.next", fallback: "Next")
         /// Sign in
         internal static let signin = L10n.tr("Localizable", "intro.promo.button.signin", fallback: "Sign in")

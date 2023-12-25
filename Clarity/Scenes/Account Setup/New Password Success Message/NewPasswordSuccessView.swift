@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NewPasswordSuccessView: View {
-    @EnvironmentObject var navigation: AccountSetupNavigation
+    @EnvironmentObject var navigation: Navigation
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -17,5 +17,5 @@ struct NewPasswordSuccessView: View {
 
 #Preview {
     NewPasswordSuccessView()
-        .environmentObject(AccountSetupNavigation())
+        .environmentObject(Navigation())
 }

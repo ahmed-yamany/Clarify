@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ForgotPasswordView: View {
-    @EnvironmentObject var navigation: AccountSetupNavigation
+    @EnvironmentObject var navigation: Navigation
+    @EnvironmentObject var viewModel: ForgotPasswordViewModel
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -17,5 +18,5 @@ struct ForgotPasswordView: View {
 
 #Preview {
     ForgotPasswordView()
-        .environmentObject(AccountSetupNavigation())
+        .environmentObject(Navigation())
 }

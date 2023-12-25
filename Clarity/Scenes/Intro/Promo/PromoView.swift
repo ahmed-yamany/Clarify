@@ -9,7 +9,7 @@ import SwiftUI
 
 // View that displays promotional content in the introductory section
 struct PromoView: View {
-    @ObservedObject var navigation: IntroNavigation
+    @ObservedObject var navigation: Navigation
     @StateObject private var viewModel: PromoViewModel = .init()
     
     private let spacing: CGFloat = 24 // Spacing constant for the view layout
@@ -24,7 +24,7 @@ struct PromoView: View {
             .frame(height: CGFloat.screenSize.height * 0.75)
             
             nextButton // Button to proceed to the next step
-                
+            
             signinButton // Button for signing in
         }
         .animation(.linear, value: viewModel.selectedPromoIndex)
@@ -56,7 +56,7 @@ struct PromoView: View {
     // Function to create a view for each promo tab
     func tabViewCell(_ promo: Promo, index: Int) -> some View {
         VStack(spacing: spacing) {
-            PromoAsyncImage(url: promo.imageUrl)
+            PromoImage(resource: promo.imageResource)
             
             VStack(spacing: 8) {
                 Text(promo.title)
@@ -89,6 +89,7 @@ struct PromoView: View {
     
     private var signinButton: some View {
         Button(L10n.Intro.Promo.Button.signin) {
+            navigation.navigate(to: .signin)
         }
         .buttonStyle(.textSecondary)
     }

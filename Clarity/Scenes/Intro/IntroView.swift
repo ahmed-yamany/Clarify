@@ -7,23 +7,13 @@
 
 import SwiftUI
 
-// Enum for different types of introductory navigation, such as terms and policies
-enum IntroNavigationEnum: Hashable {
-    case termsConditions
-    case termsOfUse
-    case privacyPolicy
-}
-
-// Observable class to manage navigation routes in the introductory section
-final class IntroNavigation: Navigation {
-    @Published var routes: [IntroNavigationEnum] = []
-}
-
 // Main view for the introductory of the app
 struct IntroView: View {
-    @StateObject private var navigation = IntroNavigation()
-    
     @State private var showNavigationView = false
+    
+    @StateObject private var navigation = Navigation()
+    @StateObject private var signinViewModel = SigninViewModel()
+    @StateObject private var forgotPasswordViewModel = ForgotPasswordViewModel()
     
     var body: some View {
         // Initial splash view displayed when the app is opened
@@ -40,31 +30,18 @@ struct IntroView: View {
     // Navigation view to handle transitions to different introductory content
     private var navigationView: some View {
         NavigationStack(path: $navigation.routes) {
+            
             PromoView(navigation: navigation)
                 .navigationItemBackButtonTitle("")
-                .navigationDestination(for: IntroNavigationEnum.self) { route in
-                    view(for: route)
+                .navigationDestination(for: NavigationEnum.self) { route in
+                    route.view()
                         .navigationItemBackButtonTitle("")
+                        .environmentObject(signinViewModel)
+                        .environmentObject(forgotPasswordViewModel)
+                        .environmentObject(navigation)
                 }
         }
         .tint(Color.clTextBody)
-    }
-    
-    // return the appropriate view based on the selected route
-    @ViewBuilder
-    private func view(for route: IntroNavigationEnum) -> some View {
-        switch route {
-            case .termsConditions:
-                TermsConditionsView(navigation: navigation)
-            case .termsOfUse:
-                Text("")
-                    .applyPrimaryDesign()
-                    .navigationTitle(L10n.Intro.Terms.Button.terms)
-            case .privacyPolicy:
-                Text("")
-                    .applyPrimaryDesign()
-                    .navigationTitle(L10n.Intro.Terms.Button.privacy)
-        }
     }
 }
 

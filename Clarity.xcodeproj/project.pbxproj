@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BE72B345C840089AD20 /* UIImage+featch.swift */; };
 		EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BEA2B34707E0089AD20 /* AsyncImageStyle.swift */; };
-		EE066BEE2B3471460089AD20 /* PromoAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BED2B3471460089AD20 /* PromoAsyncImage.swift */; };
+		EE066BEE2B3471460089AD20 /* PromoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BED2B3471460089AD20 /* PromoImage.swift */; };
 		EE066BF02B348E350089AD20 /* PaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BEF2B348E350089AD20 /* PaginationView.swift */; };
 		EE066BF32B348F310089AD20 /* PaginationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BF22B348F310089AD20 /* PaginationStyle.swift */; };
 		EE066BF62B348F810089AD20 /* CapsulePaginationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BF52B348F810089AD20 /* CapsulePaginationStyle.swift */; };
@@ -49,7 +49,6 @@
 		EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */; };
 		EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */; };
 		EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */; };
-		EEB198312B39B8F1002E8504 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198302B39B8F1002E8504 /* Protocols.swift */; };
 		EEB198332B39BC59002E8504 /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198322B39BC59002E8504 /* SigninViewModel.swift */; };
 		EEB1983E2B39BDD9002E8504 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1983D2B39BDD9002E8504 /* ForgotPasswordViewModel.swift */; };
 		EEB198402B39BE83002E8504 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1983F2B39BE83002E8504 /* SignupView.swift */; };
@@ -61,12 +60,15 @@
 		EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */; };
 		EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */; };
 		EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */; };
+		EEE68EE42B39DC580062243F /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE32B39DC580062243F /* TermsView.swift */; };
+		EEE68EE72B39DC760062243F /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */; };
+		EEE68EE92B39E6490062243F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE82B39E6490062243F /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE066BE72B345C840089AD20 /* UIImage+featch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+featch.swift"; sourceTree = "<group>"; };
 		EE066BEA2B34707E0089AD20 /* AsyncImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageStyle.swift; sourceTree = "<group>"; };
-		EE066BED2B3471460089AD20 /* PromoAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoAsyncImage.swift; sourceTree = "<group>"; };
+		EE066BED2B3471460089AD20 /* PromoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoImage.swift; sourceTree = "<group>"; };
 		EE066BEF2B348E350089AD20 /* PaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationView.swift; sourceTree = "<group>"; };
 		EE066BF22B348F310089AD20 /* PaginationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationStyle.swift; sourceTree = "<group>"; };
 		EE066BF52B348F810089AD20 /* CapsulePaginationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulePaginationStyle.swift; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 		EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupView.swift; sourceTree = "<group>"; };
 		EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
-		EEB198302B39B8F1002E8504 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		EEB198322B39BC59002E8504 /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
 		EEB1983D2B39BDD9002E8504 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		EEB1983F2B39BE83002E8504 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
@@ -121,6 +122,9 @@
 		EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
 		EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordSuccessView.swift; sourceTree = "<group>"; };
 		EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSecondaryButtton.swift; sourceTree = "<group>"; };
+		EEE68EE32B39DC580062243F /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		EEE68EE82B39E6490062243F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +206,6 @@
 				EE2B167D2B344FD800C0A306 /* Constants */,
 				EE2B16702B34494600C0A306 /* Custom Styles */,
 				EE2B16712B34494E00C0A306 /* Custom Modifiers */,
-				EEB198302B39B8F1002E8504 /* Protocols.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			children = (
 				EE25F37D2B3715C60090DA3B /* AppRouter.swift */,
 				EE25F3862B372A5E0090DA3B /* UserStoringManager.swift */,
+				EEE68EE82B39E6490062243F /* Navigation.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -349,6 +353,8 @@
 				EE2B16762B344ABE00C0A306 /* Splash */,
 				EE2B16742B344AAA00C0A306 /* Promo */,
 				EE25F38D2B3741730090DA3B /* TermsConditions */,
+				EEE68EE22B39DC4E0062243F /* Terms */,
+				EEE68EE52B39DC5A0062243F /* Privacy Policy */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -470,10 +476,26 @@
 		EEC706D42B34977E005915A4 /* AsyncImage */ = {
 			isa = PBXGroup;
 			children = (
-				EE066BED2B3471460089AD20 /* PromoAsyncImage.swift */,
+				EE066BED2B3471460089AD20 /* PromoImage.swift */,
 				EE066BEA2B34707E0089AD20 /* AsyncImageStyle.swift */,
 			);
 			path = AsyncImage;
+			sourceTree = "<group>";
+		};
+		EEE68EE22B39DC4E0062243F /* Terms */ = {
+			isa = PBXGroup;
+			children = (
+				EEE68EE32B39DC580062243F /* TermsView.swift */,
+			);
+			path = Terms;
+			sourceTree = "<group>";
+		};
+		EEE68EE52B39DC5A0062243F /* Privacy Policy */ = {
+			isa = PBXGroup;
+			children = (
+				EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */,
+			);
+			path = "Privacy Policy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -605,6 +627,7 @@
 				EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */,
 				EEB198402B39BE83002E8504 /* SignupView.swift in Sources */,
 				EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */,
+				EEE68EE92B39E6490062243F /* Navigation.swift in Sources */,
 				EE25F3842B371EBE0090DA3B /* HomeViewModel.swift in Sources */,
 				EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */,
 				EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */,
@@ -613,6 +636,7 @@
 				EE32FA8A2B385862009FFB8E /* +navigationItemsBackButtonTitle.swift in Sources */,
 				EE2B167C2B344BF600C0A306 /* Promo.swift in Sources */,
 				EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */,
+				EEE68EE72B39DC760062243F /* PrivacyPolicyView.swift in Sources */,
 				EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */,
 				EEB1984A2B39BEB5002E8504 /* ForgotPasswordView.swift in Sources */,
 				EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */,
@@ -638,11 +662,11 @@
 				EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */,
 				EE25F3832B371EBE0090DA3B /* HomeView.swift in Sources */,
 				EE066BF02B348E350089AD20 /* PaginationView.swift in Sources */,
-				EE066BEE2B3471460089AD20 /* PromoAsyncImage.swift in Sources */,
+				EE066BEE2B3471460089AD20 /* PromoImage.swift in Sources */,
+				EEE68EE42B39DC580062243F /* TermsView.swift in Sources */,
 				EEB198462B39BEA4002E8504 /* VerifyEmailView.swift in Sources */,
 				EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */,
 				EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */,
-				EEB198312B39B8F1002E8504 /* Protocols.swift in Sources */,
 				EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
 				EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */,

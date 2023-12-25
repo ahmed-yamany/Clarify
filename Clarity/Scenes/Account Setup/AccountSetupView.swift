@@ -7,29 +7,13 @@
 
 import SwiftUI
 
-// Enum defining the different states of account setup navigation
-enum AccountSetupNavigationEnum: Hashable {
-    case signup
-    case verifyAccount
-    case verifyPhoneNumber
-    case verifyEmail
-    case signin
-    case forotPassword
-    case newPassword
-    case newPasswordSuccess
-}
-
-// Observable class to manage navigation states in the account setup process
-class AccountSetupNavigation: Navigation {
-    @Published var routes: [AccountSetupNavigationEnum] = []
-}
-
 // Main view for account setup, handling different stages of account creation and management
 struct AccountSetupView: View {
-    @StateObject private var navigation = AccountSetupNavigation()
+    @ObservedObject var termsAndConditionViewModel: TermsConditionsViewModel
     
+    @StateObject private var navigation = Navigation()
     // ViewModels for different account setup stages
-    @StateObject private var signupViewModel = SigninViewModel()
+    @StateObject private var signupViewModel = SignupViewModel()
     @StateObject private var signinViewModel = SigninViewModel()
     @StateObject private var forgotPasswordViewModel = ForgotPasswordViewModel()
     
@@ -38,40 +22,45 @@ struct AccountSetupView: View {
             parentView
                 .applyPrimaryDesign()
                 .navigationItemBackButtonTitle("")
-                .navigationDestination(for: AccountSetupNavigationEnum.self) { route in
-                    view(for: route)
-                        .environmentObject(navigation)
+                .navigationDestination(for: NavigationEnum.self) { route in
+                    route.view()
                         .navigationItemBackButtonTitle("")
+                        .environmentObject(navigation)
+                        .environmentObject(signupViewModel)
+                        .environmentObject(signinViewModel)
+                        .environmentObject(forgotPasswordViewModel)
+                        .environmentObject(termsAndConditionViewModel)
                 }
         }
         .tint(Color.clTextBody)
     }
-    
-    // return the appropriate view based on the current navigation route
-    @ViewBuilder
-    private func view(for route: AccountSetupNavigationEnum) -> some View {
-        switch route {
-            case .signup: SigninView()
-            case .verifyAccount: VerifyAccountview()
-            case .verifyPhoneNumber: VerifyPhoneView()
-            case .verifyEmail: VerifyEmailView()
-            case .signin: SigninView()
-            case .forotPassword: ForgotPasswordView()
-            case .newPassword: NewPasswordView()
-            case .newPasswordSuccess: NewPasswordSuccessView()
-        }
-    }
-    
+
     // Parent view holding common components like promotional image and sign-in options
     private var parentView: some View {
         VStack(spacing: 12) {
-            PromoAsyncImage(url: Promo.samples.first?.imageUrl)
+            promoImage
             appleButton
             googleButton
+            emailButton
             notMemberView
         }
         .padding([.horizontal, .top], CGFloat.cl.contentPadding)
         .applyPrimaryDesign()
+    }
+    
+    private var promoImage: some View {
+        ZStack {
+            PromoImage(resource: .imageAccountSetup)
+            
+            VStack {
+                Text(L10n.App.name.uppercased())
+                    .font(Font.h3)
+                
+                Text(L10n.AccountSetup.Image.text)
+                    .font(Font.Large(weight: .regular))
+            }
+            .foregroundStyle(Color.clSecondary)
+        }
     }
     
     private var appleButton: some View {
@@ -108,5 +97,5 @@ struct AccountSetupView: View {
 }
 
 #Preview {
-    AccountSetupView()
+    AccountSetupView(termsAndConditionViewModel: .init())
 }

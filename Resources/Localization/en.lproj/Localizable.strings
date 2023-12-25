@@ -5,7 +5,8 @@
   Created by Ahmed Yamany on 20/12/2023.
   
 */
-
+"app.name" = "Clarity";
+//
 "intro.promo.button.next" = "Next";
 "intro.promo.button.signin" = "Sign in";
 //
@@ -19,6 +20,7 @@
 "intro.terms.button.acceptAll" = "Accept all";
 "intro.terms.button.signup" = "Next";
 //
+"accountSetup.image.text" = "Your reset begins here. ";
 "accountSetup.button.apple" = "Continue with Apple";
 "accountSetup.button.google" = "Continue with Google";
 "accountSetup.button.email" = "Sign In with Email";
