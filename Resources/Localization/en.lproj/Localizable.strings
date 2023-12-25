@@ -18,5 +18,10 @@
 "intro.terms.button.terms" = "Terms of Use.";
 "intro.terms.button.acceptAll" = "Accept all";
 "intro.terms.button.signup" = "Next";
-
+//
+"accountSetup.button.apple" = "Continue with Apple";
+"accountSetup.button.google" = "Continue with Google";
+"accountSetup.button.email" = "Sign In with Email";
+"accountSetup.button.signup" = "Sign UP";
+"accountSetup.text.notmember" = "Not a member?";
 

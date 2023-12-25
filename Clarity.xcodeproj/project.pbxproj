@@ -46,6 +46,20 @@
 		EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */; };
 		EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */; };
 		EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */; };
+		EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */; };
+		EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */; };
+		EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */; };
+		EEB198312B39B8F1002E8504 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198302B39B8F1002E8504 /* Protocols.swift */; };
+		EEB198332B39BC59002E8504 /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198322B39BC59002E8504 /* SigninViewModel.swift */; };
+		EEB1983E2B39BDD9002E8504 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1983D2B39BDD9002E8504 /* ForgotPasswordViewModel.swift */; };
+		EEB198402B39BE83002E8504 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1983F2B39BE83002E8504 /* SignupView.swift */; };
+		EEB198422B39BE8E002E8504 /* VerifyAccountview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198412B39BE8E002E8504 /* VerifyAccountview.swift */; };
+		EEB198442B39BE9C002E8504 /* VerifyPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198432B39BE9C002E8504 /* VerifyPhoneView.swift */; };
+		EEB198462B39BEA4002E8504 /* VerifyEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198452B39BEA4002E8504 /* VerifyEmailView.swift */; };
+		EEB198482B39BEAB002E8504 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198472B39BEAB002E8504 /* SigninView.swift */; };
+		EEB1984A2B39BEB5002E8504 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198492B39BEB5002E8504 /* ForgotPasswordView.swift */; };
+		EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */; };
+		EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */; };
 		EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +106,20 @@
 		EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryToggleStyle.swift; sourceTree = "<group>"; };
 		EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsViewModel.swift; sourceTree = "<group>"; };
 		EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrimaryButton.swift; sourceTree = "<group>"; };
+		EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupView.swift; sourceTree = "<group>"; };
+		EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
+		EEB198302B39B8F1002E8504 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		EEB198322B39BC59002E8504 /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		EEB1983D2B39BDD9002E8504 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		EEB1983F2B39BE83002E8504 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		EEB198412B39BE8E002E8504 /* VerifyAccountview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccountview.swift; sourceTree = "<group>"; };
+		EEB198432B39BE9C002E8504 /* VerifyPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneView.swift; sourceTree = "<group>"; };
+		EEB198452B39BEA4002E8504 /* VerifyEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailView.swift; sourceTree = "<group>"; };
+		EEB198472B39BEAB002E8504 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		EEB198492B39BEB5002E8504 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
+		EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordSuccessView.swift; sourceTree = "<group>"; };
 		EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSecondaryButtton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +202,7 @@
 				EE2B167D2B344FD800C0A306 /* Constants */,
 				EE2B16702B34494600C0A306 /* Custom Styles */,
 				EE2B16712B34494E00C0A306 /* Custom Modifiers */,
+				EEB198302B39B8F1002E8504 /* Protocols.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -230,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				EE2B16752B344AB700C0A306 /* Intro */,
+				EEB198292B39A028002E8504 /* Account Setup */,
 				EE25F37F2B371E9B0090DA3B /* Main */,
 			);
 			path = Scenes;
@@ -242,6 +272,7 @@
 				EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */,
 				EE32FA8B2B385B49009FFB8E /* SecondaryButton.swift */,
 				EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */,
+				EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -351,6 +382,89 @@
 				EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */,
 			);
 			path = Toggle;
+			sourceTree = "<group>";
+		};
+		EEB198292B39A028002E8504 /* Account Setup */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */,
+				EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */,
+				EEB198322B39BC59002E8504 /* SigninViewModel.swift */,
+				EEB1983D2B39BDD9002E8504 /* ForgotPasswordViewModel.swift */,
+				EEB198342B39BCFE002E8504 /* Signup */,
+				EEB198352B39BD10002E8504 /* Verify Account */,
+				EEB198362B39BD2F002E8504 /* Verify Phone */,
+				EEB198372B39BD3B002E8504 /* Verify Email */,
+				EEB198382B39BD70002E8504 /* Sign in */,
+				EEB198392B39BD81002E8504 /* Forgot Password */,
+				EEB1983A2B39BD98002E8504 /* New Password */,
+				EEB1983B2B39BDA0002E8504 /* New Password Success Message */,
+			);
+			path = "Account Setup";
+			sourceTree = "<group>";
+		};
+		EEB198342B39BCFE002E8504 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1983F2B39BE83002E8504 /* SignupView.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		EEB198352B39BD10002E8504 /* Verify Account */ = {
+			isa = PBXGroup;
+			children = (
+				EEB198412B39BE8E002E8504 /* VerifyAccountview.swift */,
+			);
+			path = "Verify Account";
+			sourceTree = "<group>";
+		};
+		EEB198362B39BD2F002E8504 /* Verify Phone */ = {
+			isa = PBXGroup;
+			children = (
+				EEB198432B39BE9C002E8504 /* VerifyPhoneView.swift */,
+			);
+			path = "Verify Phone";
+			sourceTree = "<group>";
+		};
+		EEB198372B39BD3B002E8504 /* Verify Email */ = {
+			isa = PBXGroup;
+			children = (
+				EEB198452B39BEA4002E8504 /* VerifyEmailView.swift */,
+			);
+			path = "Verify Email";
+			sourceTree = "<group>";
+		};
+		EEB198382B39BD70002E8504 /* Sign in */ = {
+			isa = PBXGroup;
+			children = (
+				EEB198472B39BEAB002E8504 /* SigninView.swift */,
+			);
+			path = "Sign in";
+			sourceTree = "<group>";
+		};
+		EEB198392B39BD81002E8504 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				EEB198492B39BEB5002E8504 /* ForgotPasswordView.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		EEB1983A2B39BD98002E8504 /* New Password */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */,
+			);
+			path = "New Password";
+			sourceTree = "<group>";
+		};
+		EEB1983B2B39BDA0002E8504 /* New Password Success Message */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */,
+			);
+			path = "New Password Success Message";
 			sourceTree = "<group>";
 		};
 		EEC706D42B34977E005915A4 /* AsyncImage */ = {
@@ -488,33 +602,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */,
+				EEB198402B39BE83002E8504 /* SignupView.swift in Sources */,
 				EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */,
 				EE25F3842B371EBE0090DA3B /* HomeViewModel.swift in Sources */,
 				EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */,
+				EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */,
 				EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */,
 				EE235E222B3386D900A74271 /* Font+Style.swift in Sources */,
 				EE32FA8A2B385862009FFB8E /* +navigationItemsBackButtonTitle.swift in Sources */,
 				EE2B167C2B344BF600C0A306 /* Promo.swift in Sources */,
 				EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */,
 				EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */,
+				EEB1984A2B39BEB5002E8504 /* ForgotPasswordView.swift in Sources */,
 				EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */,
+				EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */,
+				EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */,
+				EEB198332B39BC59002E8504 /* SigninViewModel.swift in Sources */,
 				EE2B167F2B34500300C0A306 /* CGFloat+Spacing.swift in Sources */,
 				EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */,
 				EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */,
 				EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */,
+				EEB198422B39BE8E002E8504 /* VerifyAccountview.swift in Sources */,
 				EE25F37B2B3713720090DA3B /* User.swift in Sources */,
 				EE235E412B33A2DA00A74271 /* PrimaryButton.swift in Sources */,
 				EE066BF32B348F310089AD20 /* PaginationStyle.swift in Sources */,
 				EE25F37E2B3715C60090DA3B /* AppRouter.swift in Sources */,
 				EE235E322B3387AE00A74271 /* Strings+Generated.swift in Sources */,
+				EEB1983E2B39BDD9002E8504 /* ForgotPasswordViewModel.swift in Sources */,
 				EE066BF82B348F9C0089AD20 /* CirclePaginationStyle.swift in Sources */,
+				EEB198482B39BEAB002E8504 /* SigninView.swift in Sources */,
+				EEB198442B39BE9C002E8504 /* VerifyPhoneView.swift in Sources */,
 				EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */,
+				EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */,
 				EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */,
 				EE25F3832B371EBE0090DA3B /* HomeView.swift in Sources */,
 				EE066BF02B348E350089AD20 /* PaginationView.swift in Sources */,
 				EE066BEE2B3471460089AD20 /* PromoAsyncImage.swift in Sources */,
+				EEB198462B39BEA4002E8504 /* VerifyEmailView.swift in Sources */,
 				EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */,
 				EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */,
+				EEB198312B39B8F1002E8504 /* Protocols.swift in Sources */,
 				EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
 				EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */,

@@ -11,8 +11,10 @@ struct SplashView: View {
     
     var body: some View {
         VStack {
-            
+            ProgressView()
+                .progressViewStyle(.circular)
         }
+        .frame(maxHeight: .infinity, alignment: .center)
         .applyPrimaryDesign()
     }
 }

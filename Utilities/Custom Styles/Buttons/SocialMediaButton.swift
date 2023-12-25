@@ -1,32 +1,29 @@
 //
-//  SecondaryButton.swift
+//  SocialMediaButton.swift
 //  Clarity
 //
-//  Created by Ahmed Yamany on 24/12/2023.
+//  Created by Ahmed Yamany on 25/12/2023.
 //
 
 import SwiftUI
 
-struct SecondaryButton: ButtonStyle {
-    let buttonSize: ButtonSize
-    var icon: ImageResource?
+struct SocialMediaButton: ButtonStyle {
+    let icon: ImageResource
     // Accesses the environment value that indicates whether the button is enabled or not
     @Environment(\.isEnabled) private var isEnabled: Bool
     
     func makeBody(configuration: Configuration) -> some View {
         HStack(spacing: 8) {
-            if let icon {
-                Image(icon)
-                    .font(.custom(size: 40, weight: .light))
-            }
-            
+            Image(icon)
+                .font(.custom(size: 40, weight: .light))
+
             configuration
                 .label
         }
         .font(Font.Large(weight: .bold))
         .foregroundStyle(Color.clTextSecondary)
         .frame(maxWidth: .infinity)
-        .frame(height: buttonSize.height)
+        .frame(height: 56)
         .background(getBackgroundColor(configuration: configuration))
         .clipShape(RoundedRectangle(cornerRadius: 12))
         .background {
@@ -47,8 +44,8 @@ struct SecondaryButton: ButtonStyle {
     }
 }
 
-extension ButtonStyle where Self == SecondaryButton {
-    static func secondaryButton(size buttonSize: ButtonSize = .large, icon: ImageResource? = nil) -> Self {
-        SecondaryButton(buttonSize: buttonSize, icon: icon)
+extension ButtonStyle where Self == SocialMediaButton {
+    static func socialMediaButton(icon: ImageResource) -> Self {
+        SocialMediaButton(icon: icon)
     }
 }

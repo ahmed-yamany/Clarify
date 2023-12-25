@@ -10,6 +10,22 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
+  internal enum AccountSetup {
+    internal enum Button {
+      /// Continue with Apple
+      internal static let apple = L10n.tr("Localizable", "accountSetup.button.apple", fallback: "Continue with Apple")
+      /// Sign In with Email
+      internal static let email = L10n.tr("Localizable", "accountSetup.button.email", fallback: "Sign In with Email")
+      /// Continue with Google
+      internal static let google = L10n.tr("Localizable", "accountSetup.button.google", fallback: "Continue with Google")
+      /// Sign UP
+      internal static let signup = L10n.tr("Localizable", "accountSetup.button.signup", fallback: "Sign UP")
+    }
+    internal enum Text {
+      /// Not a member?
+      internal static let notmember = L10n.tr("Localizable", "accountSetup.text.notmember", fallback: "Not a member?")
+    }
+  }
   internal enum Intro {
     internal enum Promo {
       internal enum Button {

@@ -7,28 +7,30 @@
 
 import SwiftUI
 
+// View that displays promotional content in the introductory section
 struct PromoView: View {
     @ObservedObject var navigation: IntroNavigation
     @StateObject private var viewModel: PromoViewModel = .init()
     
-    private let spacing: CGFloat = 24
+    private let spacing: CGFloat = 24 // Spacing constant for the view layout
+    
     var body: some View {
         VStack(spacing: spacing) {
             VStack(spacing: 8) {
-                tabView
+                tabView // Tab view for navigating through promos
                 Spacer()
-                pagination
+                pagination // Pagination control for the tab view
             }
             .frame(height: CGFloat.screenSize.height * 0.75)
             
-            nextButton
+            nextButton // Button to proceed to the next step
                 
-            signinButton
+            signinButton // Button for signing in
         }
         .animation(.linear, value: viewModel.selectedPromoIndex)
         .padding(.horizontal, CGFloat.cl.contentPadding)
-        .applyPrimaryDesign()
-        .task {
+        .applyPrimaryDesign() // Applies primary design to the view
+        .task { // Asynchronous task to load promotional content
             do {
                 viewModel.promos = try await viewModel.getPromos()
             } catch {
@@ -37,6 +39,7 @@ struct PromoView: View {
         }
     }
     
+    // View for the tab view that displays promos
     var tabView: some View {
         TabView(selection: $viewModel.selectedPromoIndex) {
             ForEach(viewModel.promos.indices, id: \.self) { index in
@@ -50,6 +53,7 @@ struct PromoView: View {
 
     }
     
+    // Function to create a view for each promo tab
     func tabViewCell(_ promo: Promo, index: Int) -> some View {
         VStack(spacing: spacing) {
             PromoAsyncImage(url: promo.imageUrl)
@@ -66,6 +70,7 @@ struct PromoView: View {
         .tag(index)
     }
     
+    // Pagination view for the promo content
     private var pagination: some View {
         PaginationView(count: viewModel.promos.count, selectedIndex: viewModel.selectedPromoIndex)
             .paginationStyle(.capsule)
