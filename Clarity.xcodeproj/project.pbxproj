@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0664262B3B380200D3D414 /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0664252B3B380200D3D414 /* PrimaryTextField.swift */; };
 		EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BE72B345C840089AD20 /* UIImage+featch.swift */; };
 		EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BEA2B34707E0089AD20 /* AsyncImageStyle.swift */; };
 		EE066BEE2B3471460089AD20 /* PromoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE066BED2B3471460089AD20 /* PromoImage.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0664252B3B380200D3D414 /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
 		EE066BE72B345C840089AD20 /* UIImage+featch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+featch.swift"; sourceTree = "<group>"; };
 		EE066BEA2B34707E0089AD20 /* AsyncImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageStyle.swift; sourceTree = "<group>"; };
 		EE066BED2B3471460089AD20 /* PromoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoImage.swift; sourceTree = "<group>"; };
@@ -138,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0664242B3B37E800D3D414 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				EE0664252B3B380200D3D414 /* PrimaryTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		EE066BE62B345C790089AD20 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +329,7 @@
 		EE2B16702B34494600C0A306 /* Custom Styles */ = {
 			isa = PBXGroup;
 			children = (
+				EE0664242B3B37E800D3D414 /* TextField */,
 				EE32FA8D2B3862D5009FFB8E /* Toggle */,
 				EEC706D42B34977E005915A4 /* AsyncImage */,
 				EE066BF12B348F0A0089AD20 /* PaginationView */,
@@ -654,6 +665,7 @@
 				EE25F37E2B3715C60090DA3B /* AppRouter.swift in Sources */,
 				EE235E322B3387AE00A74271 /* Strings+Generated.swift in Sources */,
 				EEB1983E2B39BDD9002E8504 /* ForgotPasswordViewModel.swift in Sources */,
+				EE0664262B3B380200D3D414 /* PrimaryTextField.swift in Sources */,
 				EE066BF82B348F9C0089AD20 /* CirclePaginationStyle.swift in Sources */,
 				EEB198482B39BEAB002E8504 /* SigninView.swift in Sources */,
 				EEB198442B39BE9C002E8504 /* VerifyPhoneView.swift in Sources */,

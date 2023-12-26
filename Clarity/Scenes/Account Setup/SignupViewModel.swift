@@ -8,5 +8,7 @@
 import SwiftUI
 
 class SignupViewModel: ObservableObject {
-    let text = "Ahmed"
+    @Published var name: String = ""
+    @Published var email: String = ""
+    @Published var password: String = ""  
 }

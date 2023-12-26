@@ -25,6 +25,24 @@ internal enum L10n {
       /// Your reset begins here. 
       internal static let text = L10n.tr("Localizable", "accountSetup.image.text", fallback: "Your reset begins here. ")
     }
+    internal enum Signup {
+      internal enum Button {
+        /// Create account
+        internal static let signup = L10n.tr("Localizable", "accountSetup.signup.button.signup", fallback: "Create account")
+      }
+      internal enum Text {
+        /// Already have an account
+        internal static let signin = L10n.tr("Localizable", "accountSetup.signup.text.signin", fallback: "Already have an account")
+      }
+      internal enum Textfield {
+        /// Email
+        internal static let email = L10n.tr("Localizable", "accountSetup.signup.textfield.email", fallback: "Email")
+        /// Name
+        internal static let name = L10n.tr("Localizable", "accountSetup.signup.textfield.name", fallback: "Name")
+        /// Password
+        internal static let password = L10n.tr("Localizable", "accountSetup.signup.textfield.password", fallback: "Password")
+      }
+    }
     internal enum Text {
       /// Not a member?
       internal static let notmember = L10n.tr("Localizable", "accountSetup.text.notmember", fallback: "Not a member?")

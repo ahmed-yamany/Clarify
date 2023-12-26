@@ -26,4 +26,11 @@
 "accountSetup.button.email" = "Sign In with Email";
 "accountSetup.button.signup" = "Sign UP";
 "accountSetup.text.notmember" = "Not a member?";
+//
+"accountSetup.signup.textfield.name" = "Name";
+"accountSetup.signup.textfield.email" = "Email";
+"accountSetup.signup.textfield.password" = "Password";
+"accountSetup.signup.button.signup" = "Create account";
+"accountSetup.signup.text.signin" = "Already have an account";
+
 
