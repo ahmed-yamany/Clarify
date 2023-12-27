@@ -60,6 +60,7 @@
 		EEB1984A2B39BEB5002E8504 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB198492B39BEB5002E8504 /* ForgotPasswordView.swift */; };
 		EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */; };
 		EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */; };
+		EEBC8F4B2B3C6BE800AF0E38 /* AccountSetupCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8F4A2B3C6BE800AF0E38 /* AccountSetupCustomView.swift */; };
 		EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */; };
 		EEE68EE42B39DC580062243F /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE32B39DC580062243F /* TermsView.swift */; };
 		EEE68EE72B39DC760062243F /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */; };
@@ -123,6 +124,7 @@
 		EEB198492B39BEB5002E8504 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
 		EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordSuccessView.swift; sourceTree = "<group>"; };
+		EEBC8F4A2B3C6BE800AF0E38 /* AccountSetupCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupCustomView.swift; sourceTree = "<group>"; };
 		EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSecondaryButtton.swift; sourceTree = "<group>"; };
 		EEE68EE32B39DC580062243F /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
 		EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 		EE2B16702B34494600C0A306 /* Custom Styles */ = {
 			isa = PBXGroup;
 			children = (
+				EEBC8F4A2B3C6BE800AF0E38 /* AccountSetupCustomView.swift */,
 				EE0664242B3B37E800D3D414 /* TextField */,
 				EE32FA8D2B3862D5009FFB8E /* Toggle */,
 				EEC706D42B34977E005915A4 /* AsyncImage */,
@@ -681,6 +684,7 @@
 				EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */,
 				EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
+				EEBC8F4B2B3C6BE800AF0E38 /* AccountSetupCustomView.swift in Sources */,
 				EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */,
 				EE066BF62B348F810089AD20 /* CapsulePaginationStyle.swift in Sources */,
 			);

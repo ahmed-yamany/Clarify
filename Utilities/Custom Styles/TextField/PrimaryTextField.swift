@@ -56,4 +56,3 @@ struct PrimaryTextField: View {
         .padding(.trailing, 18)
     }
 }
-

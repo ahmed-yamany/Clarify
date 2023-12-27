@@ -8,5 +8,6 @@
 import SwiftUI
 
 class SigninViewModel: ObservableObject {
-    @Published var text = "Ahmed"
+    @Published var email: String = ""
+    @Published var password: String = ""
 }

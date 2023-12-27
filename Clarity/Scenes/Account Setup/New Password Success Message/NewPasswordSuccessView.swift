@@ -11,7 +11,27 @@ struct NewPasswordSuccessView: View {
     @EnvironmentObject var navigation: Navigation
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        AccountSetupCustomView(subtitle: "") {
+            VStack(spacing: 40) {
+                Image(.newpasswordSucces)
+                    .resizable()
+                    .frame(width: 204, height: 192)
+                
+                VStack(spacing: 8) {
+                    Text(L10n.AccountSetup.NewPassword.Success.title)
+                        .font(.h4)
+                    
+                    Text(L10n.AccountSetup.NewPassword.Success.subtitle)
+                        .font(.medium(weight: .regular))
+                        .multilineTextAlignment(.center)
+                }
+                
+                Button(L10n.AccountSetup.NewPassword.Success.button) {
+                    navigation.pop(to: .signin)
+                }
+                .buttonStyle(.primaryButton())
+            }
+        }
     }
 }
 

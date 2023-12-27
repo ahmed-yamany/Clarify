@@ -27,10 +27,29 @@
 "accountSetup.button.signup" = "Sign UP";
 "accountSetup.text.notmember" = "Not a member?";
 //
+"accountSetup.signup.title" = "Sign Up";
 "accountSetup.signup.textfield.name" = "Name";
 "accountSetup.signup.textfield.email" = "Email";
 "accountSetup.signup.textfield.password" = "Password";
 "accountSetup.signup.button.signup" = "Create account";
 "accountSetup.signup.text.signin" = "Already have an account";
-
-
+//
+"accountSetup.signin.title" = "Sign In";
+"accountSetup.signin.subtitle" = "Use the same method that you created your account with.";
+"accountSetup.signin.textfield.email" = "Email";
+"accountSetup.signin.textfield.password" = "Password";
+"accountSetup.signin.button.signin" = "Sign in";
+"accountSetup.signin.button.forgorPassword" = "Forgot Password?";
+"accountSetup.signin.text.signup" = "Don’t have an account?";
+//
+"accountSetup.forgotPassword.title" = "Forgotten Password";
+"accountSetup.forgotPassword.subtitle" = "Please enter an email address that you used to create account with so we can send you an email to reset your password.";
+"accountSetup.forgotPassword.button" = "Send email";
+//
+"accountSetup.newPassword.title" = "New Password";
+"accountSetup.newPassword.subtitle" = "Your new password must be different from your previously used password.";
+"accountSetup.newPassword.button" = "Reset Password";
+//
+"accountSetup.newPassword.success.title" = "Success!";
+"accountSetup.newPassword.success.subtitle" = "Your password has been changed. From now on use your new password to log in.";
+"accountSetup.newPassword.success.button" = "OK";

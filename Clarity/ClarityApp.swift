@@ -24,22 +24,6 @@ struct ClarityApp: App {
     var body: some Scene {
         WindowGroup {
             AnyView(appRouter.rootView)
-//            NavigationStack(path: $navigation.routes) {
-//                List {
-//                    Button {
-//                        navigation.routes.append(.next)
-//                    } label: {
-//                        Text("Click me")
-//                    }
-//                }
-//                .navigationDestination(for: TestEnum.self) { route in
-//                    switch route {
-//                        case .next: Text("HI")
-//                        case .next2: Text("HI 2")
-//                    }
-//                }
-//                
-//            }
         }
     }
 }

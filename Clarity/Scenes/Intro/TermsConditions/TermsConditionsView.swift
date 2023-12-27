@@ -15,14 +15,13 @@ struct TermsConditionsView: View {
     @State private var accountSetupIsPresended = false // State to control the presentation of the account setup view
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 68) {
-            title // Title of the terms and conditions view
-            terms // Toggles for various terms
-            footerView // Footer containing buttons for actions
+        AccountSetupCustomView(subtitle: "") {
+            VStack(spacing: 68) {
+                title
+                terms // Toggles for various terms
+                footerView // Footer containing buttons for actions
+            }
         }
-        .padding([.horizontal, .top], .cl.contentPadding)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .applyPrimaryDesign()
         .fullScreenCover(isPresented: $accountSetupIsPresended) {
             AccountSetupView(termsAndConditionViewModel: viewModel)
         }
@@ -32,6 +31,7 @@ struct TermsConditionsView: View {
     private var title: some View {
         Text(L10n.Intro.Terms.title)
             .font(Font.h4)
+            .frame(maxWidth: .infinity, alignment: .leading)
     }
     
     // View containing toggles for agreeing to different terms

@@ -55,7 +55,7 @@ class Navigation: ObservableObject {
     }
     
     // Function to pop the navigation stack up to a specified route
-      func popTo(route: NavigationEnum) {
+      func pop(to route: NavigationEnum) {
           // Check if the route exists in the stack
           if let index = routes.lastIndex(where: { $0 == route }) {
               // Remove routes above the specified route

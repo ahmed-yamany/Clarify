@@ -21,11 +21,59 @@ internal enum L10n {
       /// Sign UP
       internal static let signup = L10n.tr("Localizable", "accountSetup.button.signup", fallback: "Sign UP")
     }
+    internal enum ForgotPassword {
+      /// Send email
+      internal static let button = L10n.tr("Localizable", "accountSetup.forgotPassword.button", fallback: "Send email")
+      /// Please enter an email address that you used to create account with so we can send you an email to reset your password.
+      internal static let subtitle = L10n.tr("Localizable", "accountSetup.forgotPassword.subtitle", fallback: "Please enter an email address that you used to create account with so we can send you an email to reset your password.")
+      /// Forgotten Password
+      internal static let title = L10n.tr("Localizable", "accountSetup.forgotPassword.title", fallback: "Forgotten Password")
+    }
     internal enum Image {
       /// Your reset begins here. 
       internal static let text = L10n.tr("Localizable", "accountSetup.image.text", fallback: "Your reset begins here. ")
     }
+    internal enum NewPassword {
+      /// Reset Password
+      internal static let button = L10n.tr("Localizable", "accountSetup.newPassword.button", fallback: "Reset Password")
+      /// Your new password must be different from your previously used password.
+      internal static let subtitle = L10n.tr("Localizable", "accountSetup.newPassword.subtitle", fallback: "Your new password must be different from your previously used password.")
+      /// New Password
+      internal static let title = L10n.tr("Localizable", "accountSetup.newPassword.title", fallback: "New Password")
+      internal enum Success {
+        /// OK
+        internal static let button = L10n.tr("Localizable", "accountSetup.newPassword.success.button", fallback: "OK")
+        /// Your password has been changed. From now on use your new password to log in.
+        internal static let subtitle = L10n.tr("Localizable", "accountSetup.newPassword.success.subtitle", fallback: "Your password has been changed. From now on use your new password to log in.")
+        /// Success!
+        internal static let title = L10n.tr("Localizable", "accountSetup.newPassword.success.title", fallback: "Success!")
+      }
+    }
+    internal enum Signin {
+      /// Use the same method that you created your account with.
+      internal static let subtitle = L10n.tr("Localizable", "accountSetup.signin.subtitle", fallback: "Use the same method that you created your account with.")
+      /// Sign In
+      internal static let title = L10n.tr("Localizable", "accountSetup.signin.title", fallback: "Sign In")
+      internal enum Button {
+        /// Forgot Password?
+        internal static let forgorPassword = L10n.tr("Localizable", "accountSetup.signin.button.forgorPassword", fallback: "Forgot Password?")
+        /// Sign in
+        internal static let signin = L10n.tr("Localizable", "accountSetup.signin.button.signin", fallback: "Sign in")
+      }
+      internal enum Text {
+        /// Don’t have an account?
+        internal static let signup = L10n.tr("Localizable", "accountSetup.signin.text.signup", fallback: "Don’t have an account?")
+      }
+      internal enum Textfield {
+        /// Email
+        internal static let email = L10n.tr("Localizable", "accountSetup.signin.textfield.email", fallback: "Email")
+        /// Password
+        internal static let password = L10n.tr("Localizable", "accountSetup.signin.textfield.password", fallback: "Password")
+      }
+    }
     internal enum Signup {
+      /// Sign Up
+      internal static let title = L10n.tr("Localizable", "accountSetup.signup.title", fallback: "Sign Up")
       internal enum Button {
         /// Create account
         internal static let signup = L10n.tr("Localizable", "accountSetup.signup.button.signup", fallback: "Create account")

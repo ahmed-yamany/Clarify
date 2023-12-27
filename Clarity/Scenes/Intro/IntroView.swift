@@ -12,6 +12,7 @@ struct IntroView: View {
     @State private var showNavigationView = false
     
     @StateObject private var navigation = Navigation()
+    @StateObject private var signupViewModel = SignupViewModel()
     @StateObject private var signinViewModel = SigninViewModel()
     @StateObject private var forgotPasswordViewModel = ForgotPasswordViewModel()
     
@@ -36,6 +37,7 @@ struct IntroView: View {
                 .navigationDestination(for: NavigationEnum.self) { route in
                     route.view()
                         .navigationItemBackButtonTitle("")
+                        .environmentObject(signupViewModel)
                         .environmentObject(signinViewModel)
                         .environmentObject(forgotPasswordViewModel)
                         .environmentObject(navigation)
