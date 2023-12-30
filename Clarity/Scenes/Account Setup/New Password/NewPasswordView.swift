@@ -17,11 +17,15 @@ struct NewPasswordView: View {
         AccountSetupCustomView(subtitle: L10n.AccountSetup.NewPassword.subtitle) {
             VStack(spacing: 68) {
                 VStack(spacing: 12) {
-                    // Text field for email input
+                    // Text field for password input
                     PrimaryTextField(title: L10n.AccountSetup.Signin.Textfield.password,
                                      text: $viewModel.password, secured: true)
+                    .updateSecuredFieldState(viewModel.password)
+                    
+                    // Text field for confirm password input
                     PrimaryTextField(title: L10n.AccountSetup.Signin.Textfield.password,
                                      text: $viewModel.confirmPassword, secured: true)
+                    .updateSecuredFieldState(viewModel.confirmPassword)
                 }
                 
                 // Button for forgot password action

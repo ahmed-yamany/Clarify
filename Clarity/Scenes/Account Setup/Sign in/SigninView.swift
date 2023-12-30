@@ -20,6 +20,9 @@ struct SigninView: View {
             }
         }
         .navigationTitle(L10n.AccountSetup.Signin.title)
+        .onAppear {
+            viewModel.reset()
+        }
     }
     
     // View for social media sign-in buttons
@@ -45,30 +48,42 @@ struct SigninView: View {
     // View for text fields (name, email, password)
     var textfields: some View {
         VStack(spacing: 12) {
-            // Email text field
-            PrimaryTextField(title: L10n.AccountSetup.Signin.Textfield.email,
-                             text: $viewModel.email)
-                .keyboardType(.emailAddress)
-                .textContentType(.emailAddress)
-            
-            // Password text field
-            PrimaryTextField(title: L10n.AccountSetup.Signin.Textfield.password,
-                             text: $viewModel.password,
-                             secured: true)
-            
-            // Signin button
-            Button(L10n.AccountSetup.Signin.Button.signin) {
-            }
-            .buttonStyle(.primaryButton())
-            
-            // Forgot Password button
-            Button(L10n.AccountSetup.Signin.Button.forgorPassword) {
-                navigation.navigate(to: .forotPassword)
-            }
-            .buttonStyle(.textPrimary)
+            emailTextfield
+            passwordTextField
+            signinButton
+            forgotPassword
         }
         .autocorrectionDisabled(true)
         .textInputAutocapitalization(.never)
+    }
+    
+    private var emailTextfield: some View {
+        PrimaryTextField(title: L10n.AccountSetup.Signin.Textfield.email,
+                         text: $viewModel.email)
+        .setEmailTextFieldState(viewModel.email)
+        .keyboardType(.emailAddress)
+        .textContentType(.emailAddress)
+    }
+    
+    private var passwordTextField: some View {
+        PrimaryTextField(title: L10n.AccountSetup.Signin.Textfield.password,
+                         text: $viewModel.password,
+                         secured: true)
+    }
+    
+    private var signinButton: some View {
+        Button(L10n.AccountSetup.Signin.Button.signin) {
+            viewModel.login()
+        }
+        .buttonStyle(.primaryButton())
+        .disabled(!viewModel.formIsValid())
+    }
+    
+    private var forgotPassword: some View {
+        Button(L10n.AccountSetup.Signin.Button.forgorPassword) {
+            navigation.navigate(to: .forotPassword)
+        }
+        .buttonStyle(.textPrimary)
     }
     
     // View for switching to the sign-up screen
@@ -85,7 +100,6 @@ struct SigninView: View {
             .buttonStyle(.textPrimary)
         }
     }
-
 }
 
 #Preview {

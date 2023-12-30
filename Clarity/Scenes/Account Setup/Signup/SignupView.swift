@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 // Define a SwiftUI View for the signup screen
 struct SignupView: View {
@@ -22,6 +23,9 @@ struct SignupView: View {
             }
         }
         .navigationTitle(L10n.AccountSetup.Signup.title)
+        .onAppear {
+            viewModel.reset()
+        }
     }
     
     // View for social media sign-in buttons
@@ -54,6 +58,7 @@ struct SignupView: View {
             // Email text field
             PrimaryTextField(title: L10n.AccountSetup.Signup.Textfield.email,
                              text: $viewModel.email)
+                .setEmailTextFieldState(viewModel.email)
                 .keyboardType(.emailAddress)
                 .textContentType(.emailAddress)
             
@@ -61,9 +66,11 @@ struct SignupView: View {
             PrimaryTextField(title: L10n.AccountSetup.Signup.Textfield.password,
                              text: $viewModel.password,
                              secured: true)
+            .updateSecuredFieldState(viewModel.password)
             
             // Signup button
             Button(L10n.AccountSetup.Signup.Button.signup) {
+               
             }
             .buttonStyle(.primaryButton())
         }

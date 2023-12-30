@@ -33,6 +33,9 @@ struct ForgotPasswordView: View {
         }
         // Set the navigation bar title
         .navigationTitle(L10n.AccountSetup.ForgotPassword.title)
+        .onAppear {
+            viewModel.reset()
+        }
     }
 }
 

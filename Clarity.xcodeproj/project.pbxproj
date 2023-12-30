@@ -47,6 +47,11 @@
 		EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */; };
 		EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */; };
 		EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */; };
+		EE59C0382B3D92A900A7274C /* String+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59C0372B3D92A900A7274C /* String+Validate.swift */; };
+		EE60CA9C2B3DA9E40078C7D0 /* String+isValidPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CA9B2B3DA9E40078C7D0 /* String+isValidPassword.swift */; };
+		EE60CA9F2B3DAA820078C7D0 /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */; };
+		EE60CAA22B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */; };
+		EE60CAA42B3DB11D0078C7D0 /* +updateSecuredFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */; };
 		EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */; };
 		EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */; };
 		EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */; };
@@ -61,7 +66,11 @@
 		EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */; };
 		EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */; };
 		EEBC8F4B2B3C6BE800AF0E38 /* AccountSetupCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8F4A2B3C6BE800AF0E38 /* AccountSetupCustomView.swift */; };
+		EEC265F82B3DC81800E10FEE /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC265F72B3DC81800E10FEE /* UserDefaults.swift */; };
 		EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */; };
+		EEC9F93E2B4014A400214094 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F93C2B4014A400214094 /* TabBarView.swift */; };
+		EEC9F93F2B4014A400214094 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F93D2B4014A400214094 /* TabBarViewModel.swift */; };
+		EEC9F9412B4025EB00214094 /* +tabBarBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC9F9402B4025EB00214094 /* +tabBarBackgroundColor.swift */; };
 		EEE68EE42B39DC580062243F /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE32B39DC580062243F /* TermsView.swift */; };
 		EEE68EE72B39DC760062243F /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */; };
 		EEE68EE92B39E6490062243F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE68EE82B39E6490062243F /* Navigation.swift */; };
@@ -111,6 +120,11 @@
 		EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryToggleStyle.swift; sourceTree = "<group>"; };
 		EE32FA902B3864F9009FFB8E /* TermsConditionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsViewModel.swift; sourceTree = "<group>"; };
 		EE32FA932B386AA2009FFB8E /* TextPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrimaryButton.swift; sourceTree = "<group>"; };
+		EE59C0372B3D92A900A7274C /* String+Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validate.swift"; sourceTree = "<group>"; };
+		EE60CA9B2B3DA9E40078C7D0 /* String+isValidPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+isValidPassword.swift"; sourceTree = "<group>"; };
+		EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
+		EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+setEmailTextFieldState.swift"; sourceTree = "<group>"; };
+		EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+updateSecuredFieldState.swift"; sourceTree = "<group>"; };
 		EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupView.swift; sourceTree = "<group>"; };
 		EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
@@ -125,7 +139,11 @@
 		EEB1984B2B39BEBF002E8504 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
 		EEB1984D2B39BED1002E8504 /* NewPasswordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordSuccessView.swift; sourceTree = "<group>"; };
 		EEBC8F4A2B3C6BE800AF0E38 /* AccountSetupCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupCustomView.swift; sourceTree = "<group>"; };
+		EEC265F72B3DC81800E10FEE /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		EEC706D22B34953E005915A4 /* TextSecondaryButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSecondaryButtton.swift; sourceTree = "<group>"; };
+		EEC9F93C2B4014A400214094 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		EEC9F93D2B4014A400214094 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		EEC9F9402B4025EB00214094 /* +tabBarBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+tabBarBackgroundColor.swift"; sourceTree = "<group>"; };
 		EEE68EE32B39DC580062243F /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
 		EEE68EE62B39DC760062243F /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		EEE68EE82B39E6490062243F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
@@ -145,7 +163,8 @@
 		EE0664242B3B37E800D3D414 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				EE0664252B3B380200D3D414 /* PrimaryTextField.swift */,
+				EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */,
+				EE60CAA02B3DAC200078C7D0 /* PrimaryTextField */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -154,6 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				EE066BE72B345C840089AD20 /* UIImage+featch.swift */,
+				EE59C0372B3D92A900A7274C /* String+Validate.swift */,
+				EE60CA9B2B3DA9E40078C7D0 /* String+isValidPassword.swift */,
+				EEC265F72B3DC81800E10FEE /* UserDefaults.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -303,8 +325,8 @@
 		EE25F37F2B371E9B0090DA3B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				EE25F3812B371EBE0090DA3B /* HomeView.swift */,
-				EE25F3822B371EBE0090DA3B /* HomeViewModel.swift */,
+				EEC9F93B2B40148A00214094 /* TabBar */,
+				EEC9F9422B4026CA00214094 /* Home */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -346,6 +368,7 @@
 			children = (
 				EE2B16722B34497600C0A306 /* +applyPrimaryDesign.swift */,
 				EE32FA892B385862009FFB8E /* +navigationItemsBackButtonTitle.swift */,
+				EEC9F9402B4025EB00214094 /* +tabBarBackgroundColor.swift */,
 			);
 			path = "Custom Modifiers";
 			sourceTree = "<group>";
@@ -402,6 +425,16 @@
 				EE32FA8E2B3862E1009FFB8E /* PrimaryToggleStyle.swift */,
 			);
 			path = Toggle;
+			sourceTree = "<group>";
+		};
+		EE60CAA02B3DAC200078C7D0 /* PrimaryTextField */ = {
+			isa = PBXGroup;
+			children = (
+				EE0664252B3B380200D3D414 /* PrimaryTextField.swift */,
+				EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */,
+				EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */,
+			);
+			path = PrimaryTextField;
 			sourceTree = "<group>";
 		};
 		EEB198292B39A028002E8504 /* Account Setup */ = {
@@ -494,6 +527,24 @@
 				EE066BEA2B34707E0089AD20 /* AsyncImageStyle.swift */,
 			);
 			path = AsyncImage;
+			sourceTree = "<group>";
+		};
+		EEC9F93B2B40148A00214094 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EEC9F93C2B4014A400214094 /* TabBarView.swift */,
+				EEC9F93D2B4014A400214094 /* TabBarViewModel.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		EEC9F9422B4026CA00214094 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE25F3812B371EBE0090DA3B /* HomeView.swift */,
+				EE25F3822B371EBE0090DA3B /* HomeViewModel.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		EEE68EE22B39DC4E0062243F /* Terms */ = {
@@ -640,17 +691,22 @@
 			files = (
 				EEB1984C2B39BEBF002E8504 /* NewPasswordView.swift in Sources */,
 				EEB198402B39BE83002E8504 /* SignupView.swift in Sources */,
+				EEC9F93E2B4014A400214094 /* TabBarView.swift in Sources */,
+				EE59C0382B3D92A900A7274C /* String+Validate.swift in Sources */,
 				EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */,
 				EEE68EE92B39E6490062243F /* Navigation.swift in Sources */,
 				EE25F3842B371EBE0090DA3B /* HomeViewModel.swift in Sources */,
 				EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */,
 				EEB1984E2B39BED1002E8504 /* NewPasswordSuccessView.swift in Sources */,
 				EE25F38A2B3739880090DA3B /* IntroView.swift in Sources */,
+				EE60CA9F2B3DAA820078C7D0 /* TextFieldState.swift in Sources */,
 				EE235E222B3386D900A74271 /* Font+Style.swift in Sources */,
 				EE32FA8A2B385862009FFB8E /* +navigationItemsBackButtonTitle.swift in Sources */,
+				EEC9F93F2B4014A400214094 /* TabBarViewModel.swift in Sources */,
 				EE2B167C2B344BF600C0A306 /* Promo.swift in Sources */,
 				EE2B16792B344BDD00C0A306 /* PromoView.swift in Sources */,
 				EEE68EE72B39DC760062243F /* PrivacyPolicyView.swift in Sources */,
+				EEC9F9412B4025EB00214094 /* +tabBarBackgroundColor.swift in Sources */,
 				EE25F3872B372A5E0090DA3B /* UserStoringManager.swift in Sources */,
 				EEB1984A2B39BEB5002E8504 /* ForgotPasswordView.swift in Sources */,
 				EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */,
@@ -672,7 +728,9 @@
 				EE066BF82B348F9C0089AD20 /* CirclePaginationStyle.swift in Sources */,
 				EEB198482B39BEAB002E8504 /* SigninView.swift in Sources */,
 				EEB198442B39BE9C002E8504 /* VerifyPhoneView.swift in Sources */,
+				EEC265F82B3DC81800E10FEE /* UserDefaults.swift in Sources */,
 				EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */,
+				EE60CAA22B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift in Sources */,
 				EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */,
 				EE32FA912B3864F9009FFB8E /* TermsConditionsViewModel.swift in Sources */,
 				EE25F3832B371EBE0090DA3B /* HomeView.swift in Sources */,
@@ -683,6 +741,8 @@
 				EE32FA8F2B3862E1009FFB8E /* PrimaryToggleStyle.swift in Sources */,
 				EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */,
 				EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */,
+				EE60CA9C2B3DA9E40078C7D0 /* String+isValidPassword.swift in Sources */,
+				EE60CAA42B3DB11D0078C7D0 /* +updateSecuredFieldState.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
 				EEBC8F4B2B3C6BE800AF0E38 /* AccountSetupCustomView.swift in Sources */,
 				EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */,

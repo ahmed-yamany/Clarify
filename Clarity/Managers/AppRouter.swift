@@ -30,7 +30,7 @@ final class AppRouter: ObservableObject {
     
     private func updateRootView() {
         if let _ = userStoringManager.getUser() {
-            rootView = HomeView()
+            rootView = TabBarView()
         } else {
             rootView = IntroView()
         }

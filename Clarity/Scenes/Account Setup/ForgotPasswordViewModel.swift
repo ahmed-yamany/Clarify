@@ -11,4 +11,10 @@ class ForgotPasswordViewModel: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""
     @Published var confirmPassword: String = ""
+    
+    func reset() {
+        email = ""
+        password = ""
+        confirmPassword = ""
+    }
 }
