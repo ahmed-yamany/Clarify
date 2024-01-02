@@ -11,7 +11,7 @@ import SwiftUI
 struct AccountSetupView: View {
     @ObservedObject var termsAndConditionViewModel: TermsConditionsViewModel
     
-    @StateObject private var navigation = Navigation()
+    @StateObject private var navigation = OnboardingNavigation()
     // ViewModels for different account setup stages
     @StateObject private var signupViewModel = SignupViewModel()
     @StateObject private var signinViewModel = SigninViewModel()
@@ -23,7 +23,7 @@ struct AccountSetupView: View {
                 .applyPrimaryDesign()
                 .navigationItemBackButtonTitle("")
                 .navigationDestination(for: NavigationEnum.self) { route in
-                    route.view()
+                    route.view
                         .navigationItemBackButtonTitle("")
                         .environmentObject(navigation)
                         .environmentObject(signupViewModel)

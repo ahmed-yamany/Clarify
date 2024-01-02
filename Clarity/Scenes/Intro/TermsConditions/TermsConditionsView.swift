@@ -9,7 +9,7 @@ import SwiftUI
 
 // View for displaying terms and conditions in the introductory section
 struct TermsConditionsView: View {
-    @EnvironmentObject var navigation: Navigation
+    @EnvironmentObject var navigation: OnboardingNavigation
     
     @StateObject private var viewModel = TermsConditionsViewModel()
     @State private var accountSetupIsPresended = false // State to control the presentation of the account setup view

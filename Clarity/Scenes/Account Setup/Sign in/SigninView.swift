@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SigninView: View {
-    @EnvironmentObject var navigation: Navigation
+    @EnvironmentObject var navigation: OnboardingNavigation
     @EnvironmentObject var viewModel: SigninViewModel
     
     var body: some View {
@@ -108,7 +108,7 @@ struct SigninView: View {
             
         } label: {
             SigninView()
-                .environmentObject(Navigation())
+                .environmentObject(OnboardingNavigation())
                 .environmentObject(SigninViewModel())
                 .navigationBarTitleDisplayMode(.inline)
         }

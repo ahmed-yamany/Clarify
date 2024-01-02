@@ -11,7 +11,7 @@ import SwiftUI
 struct IntroView: View {
     @State private var showNavigationView = false
     
-    @StateObject private var navigation = Navigation()
+    @StateObject private var navigation = OnboardingNavigation()
     @StateObject private var signupViewModel = SignupViewModel()
     @StateObject private var signinViewModel = SigninViewModel()
     @StateObject private var forgotPasswordViewModel = ForgotPasswordViewModel()
@@ -31,11 +31,10 @@ struct IntroView: View {
     // Navigation view to handle transitions to different introductory content
     private var navigationView: some View {
         NavigationStack(path: $navigation.routes) {
-            
             PromoView(navigation: navigation)
                 .navigationItemBackButtonTitle("")
                 .navigationDestination(for: NavigationEnum.self) { route in
-                    route.view()
+                    route.view
                         .navigationItemBackButtonTitle("")
                         .environmentObject(signupViewModel)
                         .environmentObject(signinViewModel)

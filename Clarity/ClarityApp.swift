@@ -20,6 +20,7 @@ class TestNavigation: ObservableObject {
 struct ClarityApp: App {
     @StateObject private var appRouter = AppRouter.shared
     @StateObject var navigation = TestNavigation()
+    @StateObject var appViewModel = AppViewModel.shared
     
     var body: some Scene {
         WindowGroup {

@@ -11,7 +11,7 @@ import Combine
 // Define a SwiftUI View for the signup screen
 struct SignupView: View {
     // Environment objects for navigation and view model
-    @EnvironmentObject var navigation: Navigation
+    @EnvironmentObject var navigation: OnboardingNavigation
     @EnvironmentObject var viewModel: SignupViewModel
     
     var body: some View {
@@ -98,7 +98,7 @@ struct SignupView: View {
     NavigationStack {
         SignupView()
             .environmentObject(SignupViewModel())
-            .environmentObject(Navigation())
+            .environmentObject(OnboardingNavigation())
             .navigationBarTitleDisplayMode(.inline)
     }
 }

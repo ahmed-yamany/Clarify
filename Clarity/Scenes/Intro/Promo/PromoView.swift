@@ -9,7 +9,7 @@ import SwiftUI
 
 // View that displays promotional content in the introductory section
 struct PromoView: View {
-    @ObservedObject var navigation: Navigation
+    @ObservedObject var navigation: OnboardingNavigation
     @StateObject private var viewModel: PromoViewModel = .init()
     
     private let spacing: CGFloat = 24 // Spacing constant for the view layout

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NewPasswordView: View {
     // Environment objects for navigation and view model
-    @EnvironmentObject var navigation: Navigation
+    @EnvironmentObject var navigation: OnboardingNavigation
     @EnvironmentObject var viewModel: ForgotPasswordViewModel
     
     var body: some View {
@@ -44,7 +44,7 @@ struct NewPasswordView: View {
 #Preview {
     NavigationStack {
         NewPasswordView()
-            .environmentObject(Navigation())
+            .environmentObject(OnboardingNavigation())
             .environmentObject(ForgotPasswordViewModel())
     }
 }

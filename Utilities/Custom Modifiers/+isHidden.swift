@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  
+//  +isHidden.swift
+//  Clarity
 //
-//  Created by Ahmed Yamany on 13/12/2023.
+//  Created by Ahmed Yamany on 01/01/2024.
 //
 
 import SwiftUI

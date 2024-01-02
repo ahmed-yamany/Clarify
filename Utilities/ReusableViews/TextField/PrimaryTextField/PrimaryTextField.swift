@@ -22,7 +22,6 @@ extension EnvironmentValues {
 
 // Custom SwiftUI text field with additional features
 struct PrimaryTextField: View {
-    @Environment(\.isFocused) private var isFocused
     @Environment(\.textfieldState) private var state
     @Environment(\.textfieldLabel) private var label: String
     
@@ -92,7 +91,7 @@ struct PrimaryTextField: View {
     NavigationStack {
         SignupView()
             .environmentObject(SignupViewModel())
-            .environmentObject(Navigation())
+            .environmentObject(OnboardingNavigation())
             .navigationBarTitleDisplayMode(.inline)
     }
 }
