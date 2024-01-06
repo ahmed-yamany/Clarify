@@ -63,6 +63,11 @@
 		EE60CA9F2B3DAA820078C7D0 /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */; };
 		EE60CAA22B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */; };
 		EE60CAA42B3DB11D0078C7D0 /* +updateSecuredFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */; };
+		EEAEFC582B494A630082D332 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC562B494A630082D332 /* DiscoverView.swift */; };
+		EEAEFC592B494A630082D332 /* DiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC572B494A630082D332 /* DiscoverViewModel.swift */; };
+		EEAEFC5B2B494F8A0082D332 /* MeditationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC5A2B494F8A0082D332 /* MeditationType.swift */; };
+		EEAEFC5D2B4953570082D332 /* MeditationTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC5C2B4953570082D332 /* MeditationTypeCell.swift */; };
+		EEAEFC5F2B4958BE0082D332 /* MeditationTypeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC5E2B4958BE0082D332 /* MeditationTypeSection.swift */; };
 		EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */; };
 		EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */; };
 		EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */; };
@@ -152,6 +157,11 @@
 		EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
 		EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+setEmailTextFieldState.swift"; sourceTree = "<group>"; };
 		EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+updateSecuredFieldState.swift"; sourceTree = "<group>"; };
+		EEAEFC562B494A630082D332 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		EEAEFC572B494A630082D332 /* DiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewModel.swift; sourceTree = "<group>"; };
+		EEAEFC5A2B494F8A0082D332 /* MeditationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationType.swift; sourceTree = "<group>"; };
+		EEAEFC5C2B4953570082D332 /* MeditationTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTypeCell.swift; sourceTree = "<group>"; };
+		EEAEFC5E2B4958BE0082D332 /* MeditationTypeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTypeSection.swift; sourceTree = "<group>"; };
 		EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupView.swift; sourceTree = "<group>"; };
 		EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
@@ -226,6 +236,7 @@
 			children = (
 				EE0296A02B4322C0001D60B1 /* MeditationDefaultSection.swift */,
 				EE28F9582B4410FA00B99B02 /* BreathingMeditationSection.swift */,
+				EEAEFC5E2B4958BE0082D332 /* MeditationTypeSection.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -391,6 +402,7 @@
 			children = (
 				EE25F37A2B3713720090DA3B /* User.swift */,
 				EEC9F9482B406FC800214094 /* MeditationSession.swift */,
+				EEAEFC5A2B494F8A0082D332 /* MeditationType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -400,6 +412,7 @@
 			children = (
 				EEC9F93B2B40148A00214094 /* TabBar */,
 				EEC9F9422B4026CA00214094 /* Home */,
+				EEAEFC552B494A4E0082D332 /* Discover */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -509,6 +522,15 @@
 				EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */,
 			);
 			path = PrimaryTextField;
+			sourceTree = "<group>";
+		};
+		EEAEFC552B494A4E0082D332 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				EEAEFC562B494A630082D332 /* DiscoverView.swift */,
+				EEAEFC572B494A630082D332 /* DiscoverViewModel.swift */,
+			);
+			path = Discover;
 			sourceTree = "<group>";
 		};
 		EEB198292B39A028002E8504 /* Account Setup */ = {
@@ -631,6 +653,7 @@
 				EE0296952B431FFF001D60B1 /* MeditationSessionCell */,
 				EE0664242B3B37E800D3D414 /* TextField */,
 				EEC9F94A2B4084D700214094 /* SectionHeader.swift */,
+				EEAEFC5C2B4953570082D332 /* MeditationTypeCell.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -717,7 +740,7 @@
 			);
 			mainGroup = EE235E012B33794900A74271;
 			packageReferences = (
-				EE32FA862B3850D0009FFB8E /* XCLocalSwiftPackageReference "Packages/Extensions" */,
+				EEAB7F1C2B482DF3004285CD /* XCLocalSwiftPackageReference "Packages/Extensions" */,
 			);
 			productRefGroup = EE235E0B2B33794900A74271 /* Products */;
 			projectDirPath = "";
@@ -822,14 +845,17 @@
 				EE0296942B42FE02001D60B1 /* SearchTextField.swift in Sources */,
 				EEB1984A2B39BEB5002E8504 /* ForgotPasswordView.swift in Sources */,
 				EE2B167A2B344BDD00C0A306 /* PromoViewModel.swift in Sources */,
+				EEAEFC5B2B494F8A0082D332 /* MeditationType.swift in Sources */,
 				EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */,
 				EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */,
 				EEB198332B39BC59002E8504 /* SigninViewModel.swift in Sources */,
+				EEAEFC582B494A630082D332 /* DiscoverView.swift in Sources */,
 				EE2B167F2B34500300C0A306 /* CGFloat+Spacing.swift in Sources */,
 				EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */,
 				EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */,
 				EEC9F9442B405D9600214094 /* ClarityAsyncImage.swift in Sources */,
 				EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */,
+				EEAEFC5F2B4958BE0082D332 /* MeditationTypeSection.swift in Sources */,
 				EEB198422B39BE8E002E8504 /* VerifyAccountview.swift in Sources */,
 				EE25F37B2B3713720090DA3B /* User.swift in Sources */,
 				EE0296A32B43240D001D60B1 /* TrendingMeditationSessionStyle.swift in Sources */,
@@ -844,7 +870,9 @@
 				EE0296A12B4322C0001D60B1 /* MeditationDefaultSection.swift in Sources */,
 				EEB198482B39BEAB002E8504 /* SigninView.swift in Sources */,
 				EE28F95B2B441C8000B99B02 /* +navigationBarBackButtonImage.swift in Sources */,
+				EEAEFC5D2B4953570082D332 /* MeditationTypeCell.swift in Sources */,
 				EEB198442B39BE9C002E8504 /* VerifyPhoneView.swift in Sources */,
+				EEAEFC592B494A630082D332 /* DiscoverViewModel.swift in Sources */,
 				EEC265F82B3DC81800E10FEE /* UserDefaults.swift in Sources */,
 				EEC9F9542B40994B00214094 /* MeditationSessionView.swift in Sources */,
 				EE235E0E2B33794900A74271 /* ClarityApp.swift in Sources */,
@@ -1090,7 +1118,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		EE32FA862B3850D0009FFB8E /* XCLocalSwiftPackageReference "Packages/Extensions" */ = {
+		EEAB7F1C2B482DF3004285CD /* XCLocalSwiftPackageReference "Packages/Extensions" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Extensions;
 		};

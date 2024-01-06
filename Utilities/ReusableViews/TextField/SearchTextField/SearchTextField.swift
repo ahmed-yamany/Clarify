@@ -27,7 +27,7 @@ extension View {
 struct SearchTextField: View {
     let title: String
     @Binding var text: String
-    
+        
     @Environment(\.searchFilterAction) private var searchFilterAction
     
     var body: some View {
