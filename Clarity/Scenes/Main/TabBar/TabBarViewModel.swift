@@ -25,14 +25,8 @@ enum TabBarTypes: String, CaseIterable, Hashable {
         switch self {
             case .home: HomeView()
             case .discover: DiscoverView()
-            default:
-                NavigationStack {
-                    ScrollView {
-                        Text("Hello \(self.rawValue)")
-                    }
-                    .applyPrimaryDesign()
-                    .navigationTitle("Home")
-                }
+            case .progress: UserProgressView()
+            case .settings: SettingsView()
         }
     }
     
@@ -44,5 +38,5 @@ enum TabBarTypes: String, CaseIterable, Hashable {
 class TabBarViewModel: ObservableObject {
     static let shared = TabBarViewModel()
     
-    @Published var selectedTab: TabBarTypes = .discover
+    @Published var selectedTab: TabBarTypes = .progress
 }

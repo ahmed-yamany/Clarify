@@ -14,14 +14,10 @@ enum TextFieldState: Hashable {
     // Computed property to determine the fill color based on the state
     var fillColor: Color {
         switch self {
-            case .none:
-                    .clear
-            case .success:
-                Color.clPrimary
-            case .warning:
-                Color.orange
-            case .error:
-                Color.red
+            case .none: .clear
+            case .success: Color.clPrimary
+            case .warning: Color.orange
+            case .error: Color.red
         }
     }
 }

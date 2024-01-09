@@ -63,11 +63,15 @@
 		EE60CA9F2B3DAA820078C7D0 /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */; };
 		EE60CAA22B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */; };
 		EE60CAA42B3DB11D0078C7D0 /* +updateSecuredFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */; };
+		EE6643B72B4AEB34009C34F3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6643B52B4AEB34009C34F3 /* SettingsView.swift */; };
+		EE6643B82B4AEB34009C34F3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6643B62B4AEB34009C34F3 /* SettingsViewModel.swift */; };
 		EEAEFC582B494A630082D332 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC562B494A630082D332 /* DiscoverView.swift */; };
 		EEAEFC592B494A630082D332 /* DiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC572B494A630082D332 /* DiscoverViewModel.swift */; };
 		EEAEFC5B2B494F8A0082D332 /* MeditationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC5A2B494F8A0082D332 /* MeditationType.swift */; };
 		EEAEFC5D2B4953570082D332 /* MeditationTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC5C2B4953570082D332 /* MeditationTypeCell.swift */; };
 		EEAEFC5F2B4958BE0082D332 /* MeditationTypeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC5E2B4958BE0082D332 /* MeditationTypeSection.swift */; };
+		EEAEFC662B496D1C0082D332 /* UserProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC642B496D1C0082D332 /* UserProgressView.swift */; };
+		EEAEFC672B496D1C0082D332 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEFC652B496D1C0082D332 /* ProgressViewModel.swift */; };
 		EEB1982C2B39A05D002E8504 /* AccountSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */; };
 		EEB1982D2B39A05D002E8504 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */; };
 		EEB1982F2B39A5B8002E8504 /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */; };
@@ -157,11 +161,15 @@
 		EE60CA9E2B3DAA820078C7D0 /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
 		EE60CAA12B3DAC3A0078C7D0 /* +setEmailTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+setEmailTextFieldState.swift"; sourceTree = "<group>"; };
 		EE60CAA32B3DB11D0078C7D0 /* +updateSecuredFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+updateSecuredFieldState.swift"; sourceTree = "<group>"; };
+		EE6643B52B4AEB34009C34F3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE6643B62B4AEB34009C34F3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		EEAEFC562B494A630082D332 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		EEAEFC572B494A630082D332 /* DiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewModel.swift; sourceTree = "<group>"; };
 		EEAEFC5A2B494F8A0082D332 /* MeditationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationType.swift; sourceTree = "<group>"; };
 		EEAEFC5C2B4953570082D332 /* MeditationTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTypeCell.swift; sourceTree = "<group>"; };
 		EEAEFC5E2B4958BE0082D332 /* MeditationTypeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTypeSection.swift; sourceTree = "<group>"; };
+		EEAEFC642B496D1C0082D332 /* UserProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgressView.swift; sourceTree = "<group>"; };
+		EEAEFC652B496D1C0082D332 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
 		EEB1982A2B39A05D002E8504 /* AccountSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetupView.swift; sourceTree = "<group>"; };
 		EEB1982B2B39A05D002E8504 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		EEB1982E2B39A5B8002E8504 /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
@@ -413,6 +421,8 @@
 				EEC9F93B2B40148A00214094 /* TabBar */,
 				EEC9F9422B4026CA00214094 /* Home */,
 				EEAEFC552B494A4E0082D332 /* Discover */,
+				EEAEFC632B496CBD0082D332 /* User Progress */,
+				EE6643B42B4AEB13009C34F3 /* Settings */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -524,6 +534,15 @@
 			path = PrimaryTextField;
 			sourceTree = "<group>";
 		};
+		EE6643B42B4AEB13009C34F3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE6643B52B4AEB34009C34F3 /* SettingsView.swift */,
+				EE6643B62B4AEB34009C34F3 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		EEAEFC552B494A4E0082D332 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,6 +550,15 @@
 				EEAEFC572B494A630082D332 /* DiscoverViewModel.swift */,
 			);
 			path = Discover;
+			sourceTree = "<group>";
+		};
+		EEAEFC632B496CBD0082D332 /* User Progress */ = {
+			isa = PBXGroup;
+			children = (
+				EEAEFC642B496D1C0082D332 /* UserProgressView.swift */,
+				EEAEFC652B496D1C0082D332 /* ProgressViewModel.swift */,
+			);
+			path = "User Progress";
 			sourceTree = "<group>";
 		};
 		EEB198292B39A028002E8504 /* Account Setup */ = {
@@ -821,6 +849,7 @@
 				EEC9F93E2B4014A400214094 /* TabBarView.swift in Sources */,
 				EE59C0382B3D92A900A7274C /* String+Validate.swift in Sources */,
 				EE066BE82B345C840089AD20 /* UIImage+featch.swift in Sources */,
+				EE6643B72B4AEB34009C34F3 /* SettingsView.swift in Sources */,
 				EEE68EE92B39E6490062243F /* OnboardingNavigation.swift in Sources */,
 				EE25F3842B371EBE0090DA3B /* HomeViewModel.swift in Sources */,
 				EE25F38C2B373A660090DA3B /* SplashView.swift in Sources */,
@@ -854,6 +883,7 @@
 				EE32FA942B386AA2009FFB8E /* TextPrimaryButton.swift in Sources */,
 				EEC706D32B34953E005915A4 /* TextSecondaryButtton.swift in Sources */,
 				EEC9F9442B405D9600214094 /* ClarityAsyncImage.swift in Sources */,
+				EE6643B82B4AEB34009C34F3 /* SettingsViewModel.swift in Sources */,
 				EE2B166F2B34443B00C0A306 /* AppViewModel.swift in Sources */,
 				EEAEFC5F2B4958BE0082D332 /* MeditationTypeSection.swift in Sources */,
 				EEB198422B39BE8E002E8504 /* VerifyAccountview.swift in Sources */,
@@ -888,11 +918,13 @@
 				EE25F38F2B3741D00090DA3B /* TermsConditionsView.swift in Sources */,
 				EE28F9572B440F2E00B99B02 /* BreathingMeditationSessionStyle.swift in Sources */,
 				EE32FA8C2B385B49009FFB8E /* SecondaryButton.swift in Sources */,
+				EEAEFC672B496D1C0082D332 /* ProgressViewModel.swift in Sources */,
 				EE60CA9C2B3DA9E40078C7D0 /* String+isValidPassword.swift in Sources */,
 				EE60CAA42B3DB11D0078C7D0 /* +updateSecuredFieldState.swift in Sources */,
 				EE0296972B432010001D60B1 /* MeditationSessionCell.swift in Sources */,
 				EE066BEB2B34707E0089AD20 /* AsyncImageStyle.swift in Sources */,
 				EEBC8F4B2B3C6BE800AF0E38 /* AccountSetupCustomView.swift in Sources */,
+				EEAEFC662B496D1C0082D332 /* UserProgressView.swift in Sources */,
 				EE2B16732B34497600C0A306 /* +applyPrimaryDesign.swift in Sources */,
 				EE066BF62B348F810089AD20 /* CapsulePaginationStyle.swift in Sources */,
 			);

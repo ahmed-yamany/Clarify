@@ -8,7 +8,6 @@
 import SwiftUI
 
 extension View {
-    // apply primary design for Primary Views
     @ViewBuilder
     func applyPrimaryDesign() -> some View {
         self
